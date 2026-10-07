@@ -1,0 +1,3031 @@
+{
+  "meta": {
+    "sumber": [
+      {
+        "id": "S1",
+        "jenis": "buku",
+        "judul": "Materi Dakwah Ekonomi Syariah: Panduan bagi Dai dan Daiyah",
+        "penulis": "Bank Indonesia dan Majelis Ulama Indonesia",
+        "tahun": null,
+        "catatan": "Sumber utama bab 1-6. Dilarang dikutip tanpa izin; semua isi ditulis ulang."
+      },
+      {
+        "id": "S2",
+        "jenis": "buku",
+        "judul": "Pengantar Ekonomi Islam",
+        "penulis": "Ibrahim, A., Amelia, E., Akbar, N., Kholis, N., Utami, S.A., Nofrianto",
+        "tahun": 2021,
+        "catatan": "Penerbit: Departemen Ekonomi dan Keuangan Syariah, Bank Indonesia (bersama KNEKS). Dilarang diperbanyak tanpa izin penerbit; semua isi ditulis ulang."
+      },
+      {
+        "id": "S3",
+        "jenis": "jurnal",
+        "judul": "Implementasi Ekonomi Syariah dalam Administrasi Pembangunan di Indonesia pada Era Transformasi Digitalisasi",
+        "penulis": "Ibrahim, H., dan Mukhsin, M.",
+        "tahun": 2025,
+        "catatan": "Jurnal Bisnis, Ekonomi Syariah, dan Pajak 2(1): 5-16. Studi literatur."
+      },
+      {
+        "id": "S4",
+        "jenis": "jurnal",
+        "judul": "Analisis Implementasi Regulasi Ekonomi Syariah dalam Fintech Syariah di Indonesia",
+        "penulis": "Asysyakir, D., dkk.",
+        "tahun": 2026,
+        "catatan": "el-Uqud: Jurnal Kajian Hukum Ekonomi Syariah 4(1): 29-42. Studi pustaka; nomor fatwa perlu dicek ulang ke dokumen DSN-MUI."
+      },
+      {
+        "id": "S5",
+        "jenis": "jurnal",
+        "judul": "Ekonomi Syariah: Peluang dan Tantangan bagi Ekonomi Indonesia",
+        "penulis": "Ade, M.",
+        "tahun": 2009,
+        "catatan": "Al-Iqtishad 1(1): 108-112. Data angka berasal dari tahun 2008, hanya untuk konteks sejarah."
+      },
+      {
+        "id": "S6",
+        "jenis": "jurnal",
+        "judul": "Peran Pegadaian Syariah dalam Pengembangan Inklusi Keuangan Syariah di Indonesia",
+        "penulis": "Mariyani, M., dan Arifin, S.",
+        "tahun": 2025,
+        "catatan": "JEBISMA 3(2): 99-111. Mengutip SNLIK OJK 2025; cek rilis resmi OJK untuk angka terbaru."
+      },
+      {
+        "id": "S7",
+        "jenis": "jurnal",
+        "judul": "Analisis Konsep Akad Murabahah dan Akad Rahn dalam Produk Emas Antam pada Pegadaian Syariah Cabang Solo Baru Menurut Hukum Ekonomi Syariah",
+        "penulis": "Asia, S.N., Rizka, dan Rosyadi, I.",
+        "tahun": 2022,
+        "catatan": "Justisia Ekonomika 6(1): 428-439. Studi lapangan satu cabang; praktik cabang lain bisa berbeda."
+      },
+      {
+        "id": "S8",
+        "jenis": "jurnal",
+        "judul": "Inovasi Fintech Syariah dalam Pembiayaan Mikro: Solusi Digital untuk Pemberdayaan Ekonomi",
+        "penulis": "Nur'aeni, A.",
+        "tahun": 2024,
+        "catatan": "Jurnal Nuansa 2(4): 153-161."
+      },
+      {
+        "id": "S9",
+        "jenis": "jurnal",
+        "judul": "Perbandingan Sistem Bagi Hasil dalam Ekonomi Syariah dan Praktiknya di Lembaga Keuangan Syariah",
+        "penulis": "Lubis, M.M.H., Harun, F.R.N., dan Hasibuan, R.R.A.",
+        "tahun": 2025,
+        "catatan": "Jurnal Nuansa 3(3): 163-172. Studi pustaka."
+      },
+      {
+        "id": "S10",
+        "jenis": "jurnal",
+        "judul": "Legislasi Hukum Ekonomi Syariah: Studi tentang Produk Regulasi Hukum Ekonomi Syariah di Indonesia",
+        "penulis": "Adam, P.",
+        "tahun": 2018,
+        "catatan": "TAHKIM: Jurnal Peradaban dan Hukum Islam 1(2). Cek peraturan terbaru di sumber resmi karena undang-undang bisa berubah."
+      },
+      {
+        "id": "S11",
+        "jenis": "catatan kuliah",
+        "judul": "Konsep Dasar dan Ruang Lingkup Ekonomi Syariah",
+        "penulis": "Amelia, K.R.",
+        "tahun": null,
+        "catatan": "Catatan tugas mahasiswa tanpa tahun dan tanpa rujukan lengkap. Otoritas rendah: hanya dipakai sebagai pelengkap dan diberi tanda perlu_verifikasi."
+      }
+    ],
+    "catatan": "Versi 3. Gabungan 11 sumber (lihat meta.sumber). Setiap materi, istilah, dan soal punya sumber_id. Soal dan skenario diacak seimbang: posisi jawaban benar tersebar rata; nilai jawaban memakai jawaban_teks atau akad_benar, bukan posisi, dan opsi harus diacak lagi di aplikasi. perlu_verifikasi=true berarti isi ringkas atau berasal dari sumber otoritas terbatas; cek ke dokumen asli dan minta guru memeriksa. Semua isi ditulis ulang dengan kalimat sendiri.",
+    "dikecualikan": [
+      {
+        "judul": "Instrumen Ekonomi pada Dana Jaminan untuk Pemulihan Fungsi Lingkungan Hidup (Raya, 2022)",
+        "alasan": "Membahas hukum lingkungan hidup (dana jaminan pemulihan lingkungan), bukan ekonomi atau keuangan syariah, sehingga tidak dimasukkan ke database literasi."
+      }
+    ],
+    "versi": "3"
+  },
+  "modul": [
+    {
+      "slug": "mengenal-ekonomi-syariah",
+      "judul": "Mengenal Ekonomi Syariah",
+      "ringkasan": "Apa itu ekonomi syariah, bedanya dengan ekonomi konvensional, dan tiga hal yang dihindari (GHARIM).",
+      "urutan": 1,
+      "sumber_bab": "Bab 1, hlm 1-44",
+      "materi": [
+        {
+          "judul": "Apa itu ekonomi syariah?",
+          "isi": "Kata ekonomi berasal dari bahasa Yunani: oikos berarti rumah tangga dan nomos berarti aturan. Jadi ekonomi kira-kira berarti aturan mengelola rumah tangga. Syariah adalah ketentuan Allah tentang apa yang boleh dan tidak boleh dilakukan manusia. Ekonomi syariah (dalam bahasa Arab: al-iqtishad al-Islami) adalah cara mengatur produksi, distribusi, dan konsumsi kekayaan dengan nilai-nilai Islam, supaya tidak ada pihak yang dirugikan.",
+          "halaman_buku": "hlm 2-3",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Bedanya dengan ekonomi konvensional",
+          "isi": "Menurut buku, ekonomi syariah bersumber dari wahyu, sunnah, dan ijtihad ulama. Kekayaan dipandang sebagai titipan Allah, dan tujuan hidup ekonominya adalah kesejahteraan (falah) di dunia dan akhirat. Dalam praktik, transaksi harus transparan dan didasari kerelaan kedua pihak (antaradin). Ekonomi kapitalis menekankan kebebasan dan kepuasan pribadi, sedangkan sosialis menekankan kepemilikan oleh negara.",
+          "halaman_buku": "hlm 4-6",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Tiga wilayah ekonomi syariah",
+          "isi": "Ekonomi syariah mencakup tiga wilayah: bisnis, keuangan, dan sosial. Bisnis syariah adalah kegiatan usaha di sektor riil yang sesuai syariat, seperti kuliner halal dan modest fashion. Keuangan syariah dijalankan lembaga bank dan non-bank yang mengikuti aturan syariah. Wilayah sosial berisi zakat, infak, sedekah, dan wakaf. Setiap transaksi keuangan idealnya terhubung dengan kegiatan nyata di sektor riil.",
+          "halaman_buku": "hlm 6-8",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "GHARIM: tiga hal yang dihindari",
+          "isi": "Buku memakai singkatan GHARIM untuk tiga praktik yang dihindari: Gharar (ketidakjelasan), Riba (tambahan atau bunga yang dipersyaratkan), dan Maysir (untung-untungan atau judi). Ketiganya dilarang karena merugikan salah satu pihak dan menimbulkan ketidakadilan. Kalau kamu melihat sebuah transaksi, tanyakan tiga hal ini: apakah jelas, apakah ada tambahan yang tidak adil, dan apakah hasilnya hanya untung-untungan.",
+          "halaman_buku": "hlm 8-41",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Riba dan tiga jenisnya",
+          "isi": "Riba ada tiga jenis. Riba jahiliyah: tambahan atas pokok utang ketika peminjam tidak mampu bayar saat jatuh tempo. Riba fadhl: menukar barang sejenis dengan kualitas atau jumlah berbeda, misalnya 10 gram emas 24 karat ditukar 11 gram emas 22 karat. Riba nasiah: tambahan karena penundaan pembayaran, misalnya utang Rp 1 juta yang harus dikembalikan Rp 1,3 juta bulan depan.",
+          "halaman_buku": "hlm 15-18",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Jual beli dan riba itu beda",
+          "isi": "Dalam jual beli, yang ditukar adalah uang dengan barang, ada pemindahan kepemilikan barang, dan transaksinya menyentuh sektor riil. Dalam riba, uang langsung dijadikan komoditas: uang ditukar uang tanpa barang pengganti. Buku juga mencatat bahwa pada riba bisa terjadi bunga berbunga (compound interest) jika pembayaran macet, sedangkan pada jual beli tidak ada bunga berbunga.",
+          "halaman_buku": "hlm 19 (Tabel 1.2)",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Gharar dan maysir",
+          "isi": "Gharar adalah ketidakjelasan dalam akad atau objek transaksi, misalnya membeli barang yang jenis, jumlah, atau kualitasnya tidak jelas. Maysir adalah untung-untungan di mana satu pihak untung karena pihak lain rugi, seperti judi dan undian yang bergantung pada nasib. Contoh masa kini: paket misteri yang isinya tidak dijelaskan dan permainan berhadiah yang hasilnya murni tebakan.",
+          "halaman_buku": "hlm 8-41",
+          "perlu_verifikasi": true,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Tadlis dan ihtikar",
+          "isi": "Tadlis terjadi ketika salah satu pihak tidak tahu informasi yang diketahui pihak lain (informasi tidak seimbang), misalnya penjual menyembunyikan cacat barang. Dalam Islam, transaksi harus didasari kerelaan dan informasi yang sama-sama lengkap. Ihtikar adalah menimbun barang kebutuhan agar jadi langka lalu menaikkan harga jual.",
+          "halaman_buku": "hlm 13-41",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Barang haram: haram li dzatihi",
+          "isi": "Ada barang yang haram pada zatnya, sehingga dilarang diproduksi maupun diperdagangkan. Buku memberi contoh minuman keras, narkotika dan obat-obatan terlarang, bangkai, darah, daging babi, dan hewan yang penyembelihannya tidak sesuai ketentuan. Bisnis dengan produk seperti ini tetap dilarang walaupun untungnya besar.",
+          "halaman_buku": "hlm 10-13",
+          "perlu_verifikasi": true,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Najasy: penawaran palsu",
+          "isi": "Najasy adalah berpura-pura menawar tinggi atau membuat permintaan palsu padahal tidak berniat membeli. Menurut buku, tujuannya ada tiga: membuat informasi terlihat positif, memengaruhi pendapat orang banyak, dan menaikkan harga. Praktik ini dilarang karena mengandung penipuan dan niat merugikan. Contoh adaptasi masa kini: akun pura-pura antre atau ulasan palsu untuk memancing pembeli.",
+          "halaman_buku": "hlm 13-41",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Risywah (suap)",
+          "isi": "Risywah adalah memberikan harta atau sesuatu untuk memengaruhi keputusan secara tidak adil. Buku menggolongkannya sebagai kejahatan yang dilarang, dan Dewan Syariah Nasional MUI memiliki fatwa tentang risywah, korupsi, dan hadiah.",
+          "halaman_buku": "hlm 13-41",
+          "perlu_verifikasi": true,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Mulamasah dan munabadzah",
+          "isi": "Dua bentuk jual beli yang dilarang karena mengandung gharar. Mulamasah: pembeli dan penjual hanya saling menyentuh pakaian tanpa mengamatinya, lalu jual beli dianggap jadi. Munabadzah: keduanya saling melempar pakaian tanpa mengamatinya. Intinya, barang tidak dilihat dan dinilai dengan jelas sebelum transaksi.",
+          "halaman_buku": "hlm 468-469 (Bab 11)",
+          "perlu_verifikasi": false,
+          "sumber_id": "S2"
+        },
+        {
+          "judul": "Taghrir dan najsy",
+          "isi": "Taghrir adalah memengaruhi orang agar bertransaksi dengan ucapan atau tindakan yang mengandung kebohongan; di pasar modal contohnya wash sale. Najsy adalah menawar tinggi tanpa niat membeli supaya terlihat banyak peminat; contoh di pasar modal: pump and dump. Keduanya merusak keadilan karena membuat informasi dan permintaan terlihat palsu.",
+          "halaman_buku": "hlm 488+ (Bab 11)",
+          "perlu_verifikasi": false,
+          "sumber_id": "S2"
+        }
+      ]
+    },
+    {
+      "slug": "nilai-dan-prinsip",
+      "judul": "Nilai dan Prinsip Ekonomi Syariah",
+      "ringkasan": "Empat nilai dasar dan enam prinsip yang menjadi pegangan ekonomi syariah.",
+      "urutan": 2,
+      "sumber_bab": "Bab 2, hlm 45-57",
+      "materi": [
+        {
+          "judul": "Empat nilai dasar",
+          "isi": "Buku menyebut empat nilai ekonomi syariah: kepemilikan (harta adalah titipan yang harus dikelola bertanggung jawab), keadilan dalam berusaha, kerja sama dalam kebaikan, dan pertumbuhan yang seimbang. Tujuannya adalah kesejahteraan bersama, bukan keuntungan satu pihak saja.",
+          "halaman_buku": "hlm 46-51",
+          "perlu_verifikasi": true,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Enam prinsip",
+          "isi": "Enam prinsip ekonomi syariah menurut buku: (1) harta individu dikendalikan agar mengalir produktif, (2) distribusi pendapatan yang inklusif, (3) optimalisasi bisnis (jual beli) dan berbagi risiko, (4) transaksi keuangan terkait erat dengan sektor riil, (5) partisipasi sosial untuk kepentingan publik, dan (6) transaksi yang berkeadilan.",
+          "halaman_buku": "hlm 52-57",
+          "perlu_verifikasi": true,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Ciri ekonomi mikro Islam (catatan pelengkap)",
+          "isi": "Dalam ekonomi mikro Islam, perilaku konsumen, produsen, dan tenaga kerja dibimbing nilai-nilai Islam. Masalah dasarnya sama dengan ekonomi umum: keinginan manusia nyaris tanpa batas sementara sumber daya terbatas. Catatan ini menyebut prinsip menurut Abdul Manan: keadilan, kebersihan, kesederhanaan, kemurahan hati, dan moralitas, dengan landasan Al-Qur'an dan hadis. Karena sumbernya catatan kuliah, gunakan hanya sebagai pelengkap.",
+          "halaman_buku": "catatan singkat",
+          "perlu_verifikasi": true,
+          "sumber_id": "S11"
+        }
+      ]
+    },
+    {
+      "slug": "harta-dan-bisnis",
+      "judul": "Harta dan Bisnis dalam Islam",
+      "ringkasan": "Cara memandang harta, merencanakan keuangan, dan tiga jenis larangan dalam bisnis.",
+      "urutan": 3,
+      "sumber_bab": "Bab 3, hlm 59-101",
+      "materi": [
+        {
+          "judul": "Harta itu titipan",
+          "isi": "Dalam ekonomi syariah, semua yang dimiliki manusia dipandang sebagai titipan dari Allah. Karena titipan, harta perlu dicari dengan cara halal, dikelola dengan baik, dan sebagian dibagikan untuk kebaikan. Pandangan ini berbeda dengan anggapan bahwa harta sepenuhnya milik pribadi yang bebas dipakai tanpa batas.",
+          "halaman_buku": "hlm 61-66",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Pentingnya perencanaan keuangan",
+          "isi": "Buku menekankan pentingnya merencanakan masa depan, termasuk mengatur pemasukan ke beberapa pos: kebutuhan, tabungan, dan berbagi kepada sesama. Merencanakan uang membantu kita terhindar dari utang yang tidak perlu dan siap menghadapi kebutuhan mendadak.",
+          "halaman_buku": "hlm 67-75",
+          "perlu_verifikasi": true,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Tiga klasifikasi haram dalam bisnis",
+          "isi": "Sebuah bisnis bisa bermasalah dari tiga sisi. Pertama, produknya haram. Kedua, sumber dananya bermasalah karena mengandung riba, gharar, atau maysir. Ketiga, perilakunya zalim, misalnya menjual barang cacat tanpa memberi tahu pembeli atau menimbun barang. Sebelum memulai usaha, periksa ketiganya.",
+          "halaman_buku": "hlm 71-75",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Etos kerja: iman, ijtihad, jihad, istiqomah",
+          "isi": "Buku menggambarkan profesionalisme kerja dalam empat tahap: etos kerja yang dilandasi iman, perencanaan yang sungguh-sungguh (ijtihad), pelaksanaan yang giat (jihad), dan konsisten (istiqomah). Bekerja dan berkarya dipandang sebagai hal yang utama, bukan sekadar mencari uang.",
+          "halaman_buku": "hlm 88-101",
+          "perlu_verifikasi": true,
+          "sumber_id": "S1"
+        }
+      ]
+    },
+    {
+      "slug": "akad-keuangan",
+      "judul": "Akad Keuangan Syariah",
+      "ringkasan": "Kenalan dengan akad bagi hasil, jual beli, titipan, sewa, dan pinjaman lewat contoh sehari-hari.",
+      "urutan": 4,
+      "sumber_bab": "Bab 4 bagian A, hlm 106-131",
+      "materi": [
+        {
+          "judul": "Apa itu akad bagi hasil?",
+          "isi": "Akad bagi hasil adalah kerja sama dua pihak atau lebih dalam suatu usaha, dengan keuntungan dibagi sesuai nisbah (rasio) yang disepakati di awal. Dua akad yang paling sering dipakai adalah mudharabah dan musyarakah. Prinsipnya: adil, transparan, dan saling bekerja sama.",
+          "halaman_buku": "hlm 106",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Mudharabah",
+          "isi": "Mudharabah adalah kerja sama antara pemilik modal (shahibul maal) yang menyediakan seluruh modal dan pengelola usaha (mudharib) yang punya keahlian. Keuntungan dibagi sesuai nisbah yang disepakati di awal. Kerugian usaha ditanggung pemilik modal, kecuali jika rugi karena kelalaian pengelola. Contoh: Sari punya uang, Budi punya keahlian membuat kopi, mereka sepakat berbagi untung 40:60.",
+          "halaman_buku": "hlm 107-112",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Musyarakah",
+          "isi": "Musyarakah adalah kemitraan di mana dua pihak atau lebih sama-sama menyertakan modal, bisa berupa uang atau aset lain, untuk menjalankan usaha. Keuntungan dan kerugian ditanggung sesuai kontribusi dan kesepakatan. Contoh: dua sahabat patungan membuka toko dan sama-sama mengelolanya.",
+          "halaman_buku": "hlm 112-113",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Murabahah",
+          "isi": "Murabahah adalah jual beli dengan harga pokok barang ditambah margin keuntungan yang disepakati, dan bisa dibayar tunai atau dicicil. Contoh: bank membeli sepeda motor, lalu menjualnya kepada Rina dengan harga pokok ditambah margin yang diketahui kedua pihak sejak awal, dibayar dengan cicilan tetap. Berbeda dengan riba, murabahah adalah jual beli barang yang nyata.",
+          "halaman_buku": "hlm 114-116",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Salam dan Istishna",
+          "isi": "Salam adalah jual beli dengan cara memesan barang yang sifatnya dijelaskan, dengan pembayaran di muka. Istishna adalah jual beli pemesanan barang yang perlu diproduksi dulu sesuai spesifikasi yang disepakati, dengan pembayaran di awal, tengah, atau akhir. Contoh istishna: memesan lemari sesuai desain kepada pengrajin.",
+          "halaman_buku": "hlm 116-119",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Wadiah (titipan)",
+          "isi": "Wadiah adalah akad titipan: satu pihak menitipkan uang atau barang kepada pihak lain untuk dijaga, dan dapat diambil kembali kapan saja. Tujuannya menjaga keamanan dan keutuhan barang. Contoh: menitipkan uang di rekening tabungan agar aman dan bisa diambil sewaktu-waktu.",
+          "halaman_buku": "hlm 119",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Ijarah (sewa)",
+          "isi": "Ijarah adalah akad sewa antara pemberi sewa (mujir) dan penyewa (mustajir) untuk menukar manfaat barang atau jasa dengan upah (ujrah). Yang berpindah hanya hak guna, bukan kepemilikan barang. Contoh: menyewa mesin fotokopi tiap bulan.",
+          "halaman_buku": "hlm 120-121",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Qardh (pinjaman kebaikan)",
+          "isi": "Qardh adalah pinjaman dari pihak yang punya harta kepada pihak yang membutuhkan. Peminjam wajib mengembalikan jumlah pokok pada waktu yang disepakati, dan boleh memberi tambahan secara sukarela selama tidak diperjanjikan dalam akad. Contoh: meminjamkan Rp 500 ribu kepada teman untuk biaya sekolah tanpa syarat tambahan.",
+          "halaman_buku": "hlm 122-124",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Empat bentuk mudharabah",
+          "isi": "Berdasarkan Fatwa DSN-MUI tentang akad mudharabah, buku menyebut empat bentuk: muqayyadah (dibatasi jenis usaha, waktu, dan atau tempat), muthlaqah (tidak dibatasi), tsunaiyyah (dilakukan langsung antara pemilik modal dan pengelola), dan musytarakah (pengelola ikut menyertakan modalnya).",
+          "halaman_buku": "hlm 108-109",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        }
+      ]
+    },
+    {
+      "slug": "zakat-wakaf-infak",
+      "judul": "Zakat, Wakaf, Infak, dan Sedekah",
+      "ringkasan": "Keuangan sosial syariah: cara berbagi harta dan menyalurkannya dengan tepat.",
+      "urutan": 5,
+      "sumber_bab": "Bab 5, hlm 173-231",
+      "materi": [
+        {
+          "judul": "Zakat",
+          "isi": "Zakat adalah harta dengan kadar tertentu yang wajib dikeluarkan untuk diberikan kepada pihak yang berhak menerimanya, sesuai ketentuan syariat. Zakat adalah rukun Islam ketiga. Undang-undang tentang pengelolaan zakat di Indonesia menyebut zakat sebagai kewajiban seorang muslim atau badan usaha.",
+          "halaman_buku": "hlm 175-181",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Nisab dan haul",
+          "isi": "Untuk zakat harta tertentu, ada dua syarat penting: nisab, yaitu batas minimal harta yang wajib dizakati, dan haul, yaitu harta tersebut sudah dimiliki selama satu tahun. Aturan rinci berbeda untuk tiap jenis zakat, jadi cek ke lembaga resmi seperti BAZNAS atau baca bagian Macam-macam Zakat di buku.",
+          "halaman_buku": "hlm 181-201",
+          "perlu_verifikasi": true,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Wakaf",
+          "isi": "Wakaf adalah menyerahkan harta untuk dimanfaatkan secara terus-menerus bagi kebaikan umum. Pemberi wakaf disebut wakif, dan pengelolanya disebut nazhir. Wakaf tidak harus berupa tanah: ada wakaf uang dan wakaf produktif, yaitu harta wakaf yang dikelola untuk menghasilkan manfaat berkelanjutan.",
+          "halaman_buku": "hlm 207-219",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Infak dan sedekah",
+          "isi": "Infak dan sedekah adalah memberikan harta secara sukarela untuk kebaikan, tanpa batas nisab dan haul seperti zakat. Bentuknya bisa uang, tenaga, atau hal bermanfaat lain. Keduanya menumbuhkan kebiasaan berbagi dan kepedulian sosial.",
+          "halaman_buku": "hlm 221-226",
+          "perlu_verifikasi": true,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Salurkan lewat lembaga yang tepat",
+          "isi": "Buku menekankan pentingnya menyalurkan dana sosial syariah lewat lembaga pengelola yang tepat, agar dana sampai kepada yang berhak dan dikelola amanah. Sekarang tersedia platform digital untuk zakat, infak, sedekah, dan wakaf. Pastikan lembaganya resmi dan transparan sebelum menyalurkan dana.",
+          "halaman_buku": "hlm 227-231",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Zakat fitrah dan zakat maal",
+          "isi": "Zakat terbagi dua: zakat fitrah (dikeluarkan di bulan Ramadan, sebesar satu sha, dan buku menyebut 1 sha = 4 mud) dan zakat maal (zakat atas harta tertentu yang mencapai nisab dan haul). Untuk zakat pertanian dan barang temuan, haul tidak disyaratkan. Ukuran praktis zakat fitrah ditetapkan Menteri Agama, jadi cek ketentuan terbaru di lembaga resmi.",
+          "halaman_buku": "hlm 181-201",
+          "perlu_verifikasi": true,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Harta apa saja yang dizakati?",
+          "isi": "Buku mendaftar jenis harta zakat maal: simpanan emas, perak, dan barang berharga; aset perdagangan; hewan ternak; hasil pertanian; hasil jasa profesi; hasil olahan hewan dan tanaman; hasil tambang dan tangkapan laut; hasil penyewaan aset; serta hasil saham dan obligasi.",
+          "halaman_buku": "hlm 184",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Nisab emas dan contoh hitungannya",
+          "isi": "Untuk simpanan emas, perak, dan uang, buku menyebut nisab setara 85 gram emas dengan kadar zakat 2,5 persen setelah dimiliki satu tahun (haul). Contoh: harta tersimpan setahun Rp 1 miliar dan harga emas Rp 1 juta per gram, maka nisab Rp 85 juta, harta melebihi nisab, sehingga zakatnya 2,5 persen x Rp 1 miliar = Rp 25 juta. Harga emas berubah, jadi cek harga terbaru.",
+          "halaman_buku": "hlm 185-186",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Zakat penghasilan",
+          "isi": "Zakat penghasilan dikeluarkan dari gaji, tunjangan hari raya (THR), dan bonus. Menurut buku, kewajibannya berlaku bila penghasilan dari profesi tersebut telah mencapai nisab dan haul. Bagi pelajar yang belum berpenghasilan tetap, materi ini cukup dipahami sebagai bekal.",
+          "halaman_buku": "hlm 186-188",
+          "perlu_verifikasi": true,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Zakat pertanian dan peternakan",
+          "isi": "Zakat pertanian dikeluarkan dari hasil tanaman yang dikonsumsi dan bernilai ekonomis, seperti biji-bijian, umbi, sayur, dan buah. Nisabnya 5 wasaq menurut pendapat mayoritas ulama. Zakat peternakan dikeluarkan atas hewan ternak seperti unta, sapi, dan kambing yang mencapai nisab dan haul.",
+          "halaman_buku": "hlm 193-196",
+          "perlu_verifikasi": true,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Macam-macam wakaf",
+          "isi": "Dilihat dari penerima manfaat: wakaf untuk kepentingan umum, wakaf ahli (manfaatnya untuk keturunan atau keluarga wakif), dan wakaf musytarak (untuk keluarga sekaligus masyarakat umum). Dilihat dari waktu: wakaf muabbad (selamanya, tidak bisa diambil kembali) dan wakaf muaqqat (terbatas waktu, lalu dikembalikan oleh nazhir kepada wakif).",
+          "halaman_buku": "hlm 212-213",
+          "perlu_verifikasi": true,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Wakaf uang",
+          "isi": "Dulu wakaf di Indonesia identik dengan tanah untuk makam, masjid, dan madrasah. Kini wakaf bisa berupa harta bergerak seperti uang dan saham (UU No. 41 Tahun 2004), dan MUI membolehkan wakaf uang lewat fatwa tahun 2002. Wakaf uang bisa dimulai dari nominal kecil, misalnya lewat sertifikat wakaf Rp 10.000, Rp 20.000, atau Rp 50.000, sehingga semua orang berkesempatan berwakaf.",
+          "halaman_buku": "hlm 215-217",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        }
+      ]
+    },
+    {
+      "slug": "gaya-hidup-halal",
+      "judul": "Gaya Hidup Halal",
+      "ringkasan": "Konsep halal dan sektor industri halal yang dekat dengan kehidupan sehari-hari.",
+      "urutan": 6,
+      "sumber_bab": "Bab 6, hlm 233-270",
+      "materi": [
+        {
+          "judul": "Konsep halal",
+          "isi": "Halal berarti boleh. Gaya hidup halal adalah cara hidup yang memilih dan menjalani hal-hal yang halal serta baik, dan bagian dari menjaga diri. Di Indonesia, produk halal diatur oleh undang-undang jaminan produk halal, sehingga ada proses sertifikasi untuk produk yang beredar.",
+          "halaman_buku": "hlm 234-242",
+          "perlu_verifikasi": true,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Tujuh sektor gaya hidup halal",
+          "isi": "Buku membahas tujuh sektor: makanan dan minuman halal, modest fashion, pariwisata ramah Muslim, keuangan syariah, farmasi halal, kosmetik halal, serta media dan hiburan halal. Artinya halal bukan hanya soal makanan, tetapi juga cara kita berbelanja, berwisata, dan menabung.",
+          "halaman_buku": "hlm 243-262",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Indonesia dan industri halal dunia",
+          "isi": "Buku membahas peluang dan tantangan Indonesia untuk menjadi pusat industri halal dunia, serta peran Bank Indonesia dalam mengembangkan ekonomi syariah. Industri halal juga terbuka bagi siapa saja, termasuk pelaku usaha non-Muslim, karena nilainya menekankan mutu, kebersihan, dan kejujuran.",
+          "halaman_buku": "hlm 263-270",
+          "perlu_verifikasi": true,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Sertifikasi halal di Indonesia",
+          "isi": "UU No. 33 Tahun 2014 tentang Jaminan Produk Halal berlaku efektif sejak 17 Oktober 2019 dan mewajibkan sertifikasi halal bagi produk yang beredar. BPJPH mengelola pendaftaran dan pengawasan, sedangkan pemeriksaan produk dilakukan lembaga pemeriksa halal (buku menyebut LPPOM MUI). Ada dua jalur: reguler untuk semua produk, dan self-declare untuk usaha mikro kecil berisiko rendah dengan bahan jelas halal dan proses sederhana.",
+          "halaman_buku": "hlm 236-238",
+          "perlu_verifikasi": true,
+          "sumber_id": "S1"
+        }
+      ]
+    },
+    {
+      "slug": "lembaga-dan-digital",
+      "judul": "Lembaga Keuangan dan Digitalisasi",
+      "ringkasan": "Bank syariah, pasar modal syariah, keuangan non-bank, dan cara aman di era digital.",
+      "urutan": 7,
+      "sumber_bab": "Bab 4 bagian B dan C, hlm 132-172",
+      "materi": [
+        {
+          "judul": "Bank syariah",
+          "isi": "Bank syariah menjalankan usahanya dengan prinsip syariah, sehingga produknya memakai akad seperti wadiah untuk titipan, mudharabah untuk bagi hasil, dan murabahah untuk pembiayaan jual beli. Buku menyediakan tabel perbedaan bank konvensional dan bank syariah serta daftar produk dan akadnya.",
+          "halaman_buku": "hlm 132-142",
+          "perlu_verifikasi": true,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Pasar modal dan keuangan non-bank syariah",
+          "isi": "Selain bank, ada pasar modal syariah (misalnya saham syariah) dan industri keuangan non-bank syariah. Buku membandingkan karakteristik saham syariah dan konvensional. Prinsipnya sama: usaha yang dibiayai harus halal dan transaksinya bebas dari gharar, riba, dan maysir.",
+          "halaman_buku": "hlm 143-164",
+          "perlu_verifikasi": true,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Digitalisasi dan keamanan konsumen",
+          "isi": "Keuangan digital memudahkan kita, tetapi juga membuka risiko. Waspadai pinjaman online ilegal: tawaran datang lewat pesan pribadi, bunga atau biaya sangat tinggi, meminta akses data pribadi berlebihan, dan penagihan kasar. Sebelum meminjam, cek legalitas lembaga di OJK (kontak 157).",
+          "halaman_buku": "hlm 165-172",
+          "perlu_verifikasi": true,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Bank syariah vs bank konvensional",
+          "isi": "Menurut buku, bank syariah memandang uang sebagai alat tukar, bukan komoditas, dan memakai prinsip bagi hasil, jual beli, dan sewa, bukan bunga. Investasinya dibatasi pada sektor halal, hubungan dengan nasabah seperti mitra usaha, dan risiko ditanggung bersama. Bank syariah punya Dewan Pengawas Syariah (DPS) dan fungsi sosial sebagai baitul maal dan penerima wakaf uang. Di bank konvensional, bunga tetap dibayar terlepas dari untung atau rugi usaha.",
+          "halaman_buku": "hlm 134",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Produk bank syariah dan akadnya",
+          "isi": "Giro dan tabungan memakai akad wadiah yad dhamanah (bank boleh memanfaatkan dana titipan tetapi menjamin nasabah bisa menarik kapan saja; imbalan tidak dijanjikan, bonus boleh diberikan). Tabungan dan deposito bisa memakai mudharabah. Pembiayaan memakai murabahah, salam, istishna, ijarah, IMBT, mudharabah, atau musyarakah. Untuk fungsi sosial ada qardhul hasan, dan jasa lain memakai wakalah, rahn, kafalah, hiwalah, dan sharf.",
+          "halaman_buku": "hlm 135-142",
+          "perlu_verifikasi": true,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Kenapa memilih bank syariah?",
+          "isi": "Buku menyebut beberapa keuntungan: sesuai prinsip syariah, transparan soal produk, biaya, dan risiko, hubungan dengan nasabah berlandaskan kerelaan dan keadilan, layanan lengkap dengan teknologi digital, serta dana simpanan dijamin LPS dan diawasi OJK dan Dewan Pengawas Syariah.",
+          "halaman_buku": "hlm 143",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Saham syariah",
+          "isi": "Saham adalah bukti penyertaan modal ke perusahaan, mirip musyarakah, dan dividennya seperti bagi hasil. Tidak semua saham otomatis syariah: perusahaannya harus bergerak di usaha yang halal (bukan judi dan sejenisnya), utang berbasis bunga maksimal 45 persen dari total aset, dan pendapatan non-halal maksimal 10 persen dari total pendapatan. Indeks saham syariah antara lain ISSI dan Jakarta Islamic Index.",
+          "halaman_buku": "hlm 145-150",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Reksa dana syariah dan sukuk",
+          "isi": "Reksa dana syariah adalah wadah yang menghimpun dana banyak investor, dikelola manajer investasi, lalu ditanamkan ke efek syariah seperti saham syariah dan sukuk. Sukuk adalah surat berharga atau obligasi syariah. Konsepnya mirip produk konvensional, tetapi pengelolaan dan mekanismenya mengikuti prinsip syariah.",
+          "halaman_buku": "hlm 150-153",
+          "perlu_verifikasi": true,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Fintech syariah",
+          "isi": "Buku menyebut tiga contoh fintech syariah: urun dana atau crowdfunding (masyarakat mendanai proyek atau usaha kecil dengan bagi hasil), P2P lending syariah (pinjaman lewat platform dengan akad seperti qardh atau murabahah), dan market comparison (membandingkan produk keuangan dan membantu perencanaan finansial).",
+          "halaman_buku": "hlm 165-168",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Ciri pinjol ilegal",
+          "isi": "Menurut gambar OJK di buku, ciri pinjol ilegal: tidak terdaftar atau berizin OJK; meminta akses data pribadi; bunga tinggi hingga 1 sampai 4 persen per hari; tidak punya identitas kantor dan layanan pengaduan yang jelas; penawaran lewat SMS atau WhatsApp; biaya tambahan tinggi; waktu pelunasan sangat singkat; dan penagihan tidak beretika.",
+          "halaman_buku": "hlm 166-167",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        },
+        {
+          "judul": "Tips menghindari pinjol ilegal",
+          "isi": "Jangan klik tautan atau menghubungi kontak dari SMS atau WhatsApp penawaran pinjol. Cek legalitas perusahaan sebelum mengajukan lewat kontak OJK 157. Jangan tergoda pinjaman cepat tanpa agunan. Hapus dan blokir nomor penawar. Pinjam sesuai kebutuhan dan kemampuan membayar. Laporkan ke patrolisiber.id atau email waspadainvestasi@ojk.go.id.",
+          "halaman_buku": "hlm 167",
+          "perlu_verifikasi": false,
+          "sumber_id": "S1"
+        }
+      ]
+    },
+    {
+      "slug": "tujuan-dan-perilaku",
+      "judul": "Tujuan dan Perilaku Ekonomi",
+      "ringkasan": "Maqashid syariah, sikap terhadap harta, dan teladan kejujuran di pasar.",
+      "urutan": 8,
+      "sumber_bab": "S2 Bab 4, 8, 10, 11",
+      "materi": [
+        {
+          "judul": "Apa itu maqashid syariah?",
+          "isi": "Maqashid syariah adalah tujuan Allah menetapkan hukum, yaitu kemaslahatan manusia lewat menjaga lima hal pokok: agama, jiwa, akal, keturunan atau kehormatan, dan harta. Tingkat kebutuhannya ada tiga: dharuriyat (primer; bila diabaikan, kelima pokok terancam), hajiyat (sekunder; bila diabaikan hidup jadi sulit), dan tahsiniyat (pelengkap; bila diabaikan terasa tidak pantas).",
+          "halaman_buku": "Bab 8",
+          "perlu_verifikasi": false,
+          "sumber_id": "S2"
+        },
+        {
+          "judul": "Maqashid dalam urusan harta",
+          "isi": "Menjaga harta pada tingkat dharuriyat berarti mencari harta dengan cara halal. Pada tingkat hajiyat, contohnya jual beli dengan cara salam. Pada tingkat tahsiniyat, contohnya menghindari penipuan. Syariat juga menjaga harta dengan melarang mencuri dan menghilangkan harta orang lain.",
+          "halaman_buku": "Bab 8",
+          "perlu_verifikasi": false,
+          "sumber_id": "S2"
+        },
+        {
+          "judul": "Israf dan tabdzir",
+          "isi": "Menurut buku, israf adalah berlebihan dalam memakai harta melebihi ukuran yang patut, walaupun untuk diri sendiri, misalnya makan sampai terlalu kenyang atau memiliki kendaraan dan rumah melebihi kebutuhan. Tabdzir adalah menghambur-hamburkan harta untuk sesuatu yang tidak diperlukan atau tidak bermanfaat, misalnya membeli motor balap mahal padahal bukan pembalap. Keduanya dilarang.",
+          "halaman_buku": "hlm 419 (Bab 10)",
+          "perlu_verifikasi": true,
+          "sumber_id": "S2"
+        },
+        {
+          "judul": "Kejujuran di Pasar Madinah",
+          "isi": "Buku menceritakan bahwa Nabi Muhammad SAW selalu menekankan kejujuran dalam jual beli agar tidak ada pihak yang dirugikan, dan menugaskan orang untuk mengawasi pasar, misalnya setelah Fathul Makkah. Dengan semangat itu Pasar Madinah berkembang menjadi pusat ekonomi baru di kawasan Arab.",
+          "halaman_buku": "hlm 277 (Bab 4)",
+          "perlu_verifikasi": false,
+          "sumber_id": "S2"
+        }
+      ]
+    },
+    {
+      "slug": "regulasi-dan-lembaga",
+      "judul": "Aturan dan Lembaga Pendukung",
+      "ringkasan": "Undang-undang, fatwa, dan lembaga yang menjaga ekonomi syariah di Indonesia.",
+      "urutan": 9,
+      "sumber_bab": "S2 Bab 12, 14; S10; S5; S4",
+      "materi": [
+        {
+          "judul": "Empat undang-undang utama",
+          "isi": "Artikel legislasi menyebut empat undang-undang yang bersumber dari norma hukum Islam: UU No. 23 Tahun 2011 tentang Pengelolaan Zakat, UU No. 41 Tahun 2004 tentang Wakaf, UU No. 19 Tahun 2008 tentang Surat Berharga Syariah Negara, dan UU No. 21 Tahun 2008 tentang Perbankan Syariah.",
+          "halaman_buku": "Pembahasan 3",
+          "perlu_verifikasi": false,
+          "sumber_id": "S10"
+        },
+        {
+          "judul": "UU Pengelolaan Zakat",
+          "isi": "UU No. 23 Tahun 2011 menggantikan UU No. 38 Tahun 1999 dan terdiri dari 11 bab 47 pasal. Zakat didefinisikan sebagai harta yang wajib dikeluarkan muslim atau badan usaha untuk diberikan kepada yang berhak sesuai syariat. Pasal 22 menyatakan zakat yang dibayarkan ke BAZNAS atau LAZ dapat dikurangkan dari penghasilan dalam perhitungan pajak.",
+          "halaman_buku": "Pembahasan 3.a",
+          "perlu_verifikasi": false,
+          "sumber_id": "S10"
+        },
+        {
+          "judul": "UU Wakaf",
+          "isi": "UU No. 41 Tahun 2004 menyatakan wakaf sah bila sesuai syariah. Benda wakaf diperluas tidak hanya benda tidak bergerak, tetapi juga benda bergerak seperti uang dan saham (Pasal 16 ayat 3). MUI membolehkan wakaf uang dengan syarat dana dipakai untuk hal yang sesuai ajaran Islam. Persyaratan nazhir (pengelola) juga diatur lebih rinci.",
+          "halaman_buku": "Pembahasan 3.b",
+          "perlu_verifikasi": false,
+          "sumber_id": "S10"
+        },
+        {
+          "judul": "Sukuk negara (SBSN)",
+          "isi": "UU No. 19 Tahun 2008 mengatur Surat Berharga Syariah Negara atau sukuk negara: surat berharga negara berdasarkan prinsip syariah sebagai bukti penyertaan atas aset SBSN, dalam rupiah atau valuta asing. Tujuannya mencari alternatif sumber pembiayaan negara, dan pemerintah dapat memakai barang milik negara sebagai dasar penerbitan. Kata sukuk berasal dari sakk yang berarti sertifikat. Artikel lain menyebut sukuk dapat membiayai infrastruktur dan penerbitannya bisa dilakukan daring.",
+          "halaman_buku": "Pembahasan 3.c",
+          "perlu_verifikasi": false,
+          "sumber_id": "S10"
+        },
+        {
+          "judul": "UU Perbankan Syariah",
+          "isi": "UU No. 21 Tahun 2008 menegaskan bank syariah berasaskan prinsip syariah, demokrasi ekonomi, dan prinsip kehati-hatian (Pasal 2). Undang-undang ini dibuat karena kebutuhan masyarakat akan jasa bank syariah meningkat dan aturan sebelumnya (UU 7/1992 sebagaimana diubah UU 10/1998) belum spesifik. Dengan prinsip bagi hasil, semua pihak berbagi untung dan potensi risiko.",
+          "halaman_buku": "Pembahasan 3.d dan Pendahuluan",
+          "perlu_verifikasi": false,
+          "sumber_id": "S10"
+        },
+        {
+          "judul": "Sejarah singkat bank syariah Indonesia",
+          "isi": "Bank Muamalat mulai beroperasi pada 1 Mei 1992. Saat itu UU No. 7 Tahun 1992 hanya menyebut sepintas bank dengan sistem bagi hasil. Pada 1998, UU No. 10 Tahun 1998 menegaskan adanya dua sistem perbankan (dual banking system): konvensional dan syariah. Aturan khusus baru hadir lewat UU No. 21 Tahun 2008. Catatan: angka pangsa aset tahun 2008 di artikel sumber sudah lama dan tidak boleh dipakai sebagai angka terkini.",
+          "halaman_buku": "hlm 110-112",
+          "perlu_verifikasi": true,
+          "sumber_id": "S5"
+        },
+        {
+          "judul": "Siapa yang mengatur dan mengawasi?",
+          "isi": "Buku menjelaskan peran beberapa lembaga: Bank Indonesia dan OJK sebagai otoritas keuangan; BAZNAS, badan resmi pemerintah untuk mengelola zakat, infak, dan sedekah nasional (dibentuk lewat Keppres No. 8 Tahun 2001 dan dikuatkan UU 23/2011); Dewan Syariah Nasional (DSN) yang dibentuk MUI tahun 1998 dan dikukuhkan 1999; serta Badan Wakaf Indonesia (BWI) untuk wakaf. DSN lahir setelah lokakarya ulama di Bogor, 19-22 Agustus 1990, bertema bunga bank dan pengembangan ekonomi rakyat.",
+          "halaman_buku": "hlm 544-560 (Bab 12)",
+          "perlu_verifikasi": true,
+          "sumber_id": "S2"
+        },
+        {
+          "judul": "Fatwa DSN-MUI sebagai pedoman akad",
+          "isi": "Fatwa DSN-MUI menjadi pedoman akad di lembaga keuangan syariah. Contoh yang disebut dalam sumber: No. 04/2000 (murabahah), No. 07 dan 08/2000 (akad bagi hasil), No. 25/2002 (rahn), No. 77/2010 (jual beli emas tidak tunai), No. 116/2017 (uang elektronik), No. 117/2018 (pembiayaan berbasis teknologi), dan No. 140/2021 (urun dana efek syariah). Nomor fatwa sebaiknya dicek ke dokumen aslinya.",
+          "halaman_buku": "S4, S7, S9",
+          "perlu_verifikasi": true,
+          "sumber_id": "S4"
+        },
+        {
+          "judul": "BMT dan BPRS: keuangan mikro syariah",
+          "isi": "Lembaga keuangan mikro syariah antara lain koperasi jasa keuangan syariah yang dikenal sebagai Baitul Maal wa Tamwil (BMT) dan Bank Pembiayaan Rakyat Syariah (BPRS). Perannya sebagai perantara keuangan untuk usaha mikro-kecil dan masyarakat kurang mampu, karena bank formal sering terbatas informasinya tentang kelompok ini.",
+          "halaman_buku": "hlm 631+ (Bab 14)",
+          "perlu_verifikasi": false,
+          "sumber_id": "S2"
+        }
+      ]
+    },
+    {
+      "slug": "fintech-dan-digital",
+      "judul": "Fintech Syariah dan Keuangan Digital",
+      "ringkasan": "Cara teknologi dipakai dengan prinsip syariah, beserta fatwa, akad, dan risikonya.",
+      "urutan": 10,
+      "sumber_bab": "S3; S4; S8",
+      "materi": [
+        {
+          "judul": "Apa itu fintech syariah?",
+          "isi": "Fintech syariah adalah layanan keuangan berbasis teknologi yang mengikuti prinsip syariah. Jenisnya antara lain perbankan digital, asuransi digital, sistem pembayaran, crowdfunding, dan P2P lending. Semua aktivitasnya wajib menjauhi gharar, maysir, dan riba. Dasar hukumnya mencakup UU Perbankan Syariah, UU ITE, aturan OJK, dan fatwa DSN-MUI.",
+          "halaman_buku": "Pendahuluan dan Pembahasan",
+          "perlu_verifikasi": false,
+          "sumber_id": "S4"
+        },
+        {
+          "judul": "Tiga fatwa penting untuk fintech",
+          "isi": "Menurut artikel: Fatwa DSN-MUI No. 116/DSN-MUI/IX/2017 mengatur uang elektronik syariah; No. 117/DSN-MUI/II/2018 mengatur layanan pembiayaan berbasis teknologi informasi sesuai prinsip syariah; dan No. 140/DSN-MUI/VIII/2021 mengatur penawaran efek syariah lewat urun dana (securities crowdfunding), termasuk kewajiban memiliki Dewan Pengawas Syariah.",
+          "halaman_buku": "Pembahasan",
+          "perlu_verifikasi": true,
+          "sumber_id": "S4"
+        },
+        {
+          "judul": "Crowdfunding: pilih akad sesuai tujuan",
+          "isi": "Crowdfunding adalah penggalangan dana bersama lewat platform digital. Untuk investasi usaha, akad utama adalah mudharabah atau musyarakah: pada musyarakah untung dibagi sesuai kesepakatan dan rugi sesuai porsi modal; pada mudharabah rugi ditanggung pemilik dana kecuali karena kesalahan pengelola. Untuk donasi sosial, akad yang cocok adalah tabarru' (pemberian sukarela tanpa imbalan) dan qardhul hasan (pinjaman kebajikan).",
+          "halaman_buku": "Pembahasan: Crowdfunding",
+          "perlu_verifikasi": false,
+          "sumber_id": "S4"
+        },
+        {
+          "judul": "Biaya platform harus jelas",
+          "isi": "Platform sering berperan sebagai wakil atau perantara. Artikel menyarankan akad wakalah bil ujrah dengan biaya jasa berupa nominal yang ditetapkan sejak awal, dan dipisah dari dana donasi agar akad tidak bercampur. Jika biaya berupa persentase yang baru diketahui setelah kampanye selesai, ada risiko gharar karena jumlahnya tidak jelas di awal.",
+          "halaman_buku": "Pembahasan: Crowdfunding",
+          "perlu_verifikasi": false,
+          "sumber_id": "S4"
+        },
+        {
+          "judul": "P2P lending syariah: enam akad",
+          "isi": "P2P lending adalah pinjam-meminjam langsung antara pemberi dan penerima dana lewat platform digital. Menurut Fatwa 117/2018 yang dikutip artikel, akad yang dapat dipakai: ba'i (jual beli), ijarah, mudharabah, musyarakah, wakalah bil ujrah, dan qardh. Platform yang sah terdaftar di OJK (POJK No. 77/POJK.01/2016).",
+          "halaman_buku": "Pembahasan: P2P Lending",
+          "perlu_verifikasi": true,
+          "sumber_id": "S4"
+        },
+        {
+          "judul": "Risiko P2P lending",
+          "isi": "Risikonya antara lain gagal bayar dan ketidakjelasan identitas peminjam, tujuan dana, serta cara pengembalian, yang bisa menimbulkan gharar. Denda keterlambatan yang terlalu tinggi sering dianggap sebagai pengganti bunga. Bila terjadi sengketa, fatwa mengarahkan musyawarah mufakat lebih dulu, lalu lembaga penyelesaian sengketa syariah seperti BASYARNAS bila tidak sepakat.",
+          "halaman_buku": "Pembahasan: P2P Lending",
+          "perlu_verifikasi": false,
+          "sumber_id": "S4"
+        },
+        {
+          "judul": "Bagi hasil untuk UMKM lewat fintech",
+          "isi": "Menurut artikel, P2P lending dengan skema bagi hasil membantu UMKM yang sulit mendapat modal dari bank karena syarat jaminan dan riwayat kredit. Dampak yang dilaporkan: kapasitas produksi, kualitas produk, dan pasar bertambah. Tantangannya: literasi digital pelaku UMKM rendah, keamanan data, dan aturan khusus fintech syariah yang belum rinci.",
+          "halaman_buku": "Hasil dan Pembahasan",
+          "perlu_verifikasi": true,
+          "sumber_id": "S8"
+        },
+        {
+          "judul": "Uang elektronik",
+          "isi": "Uang elektronik adalah alat pembayaran yang nilai uangnya disimpan secara elektronik (di chip atau server) dari dana yang disetor lebih dulu ke penerbit. Ada dua jenis: registered (identitas pemegang terdaftar dan tercatat di penerbit) dan unregistered (identitas tidak tercatat). Aspek syariahnya diatur dalam Fatwa DSN-MUI No. 116/2017.",
+          "halaman_buku": "Pembahasan: Pembayaran Digital",
+          "perlu_verifikasi": false,
+          "sumber_id": "S4"
+        },
+        {
+          "judul": "Empat fungsi uang",
+          "isi": "Uang punya empat fungsi: satuan nilai (mengukur harga dan kekayaan), alat tukar (menghindari kerepotan barter), penyimpan nilai (menyimpan daya beli untuk masa depan atau keadaan tak terduga), dan alat pembayaran tunda (membayar di kemudian hari).",
+          "halaman_buku": "Pembahasan: Pembayaran Digital",
+          "perlu_verifikasi": false,
+          "sumber_id": "S4"
+        },
+        {
+          "judul": "Peluang dan tantangan digitalisasi ekonomi syariah",
+          "isi": "Teknologi seperti e-commerce halal, aplikasi keuangan syariah, penerbitan sukuk daring, dan aplikasi zakat-wakaf dapat memperluas akses, termasuk ke daerah terpencil. Tantangannya: literasi digital dan literasi ekonomi syariah yang rendah, regulasi yang masih berkembang, dan keamanan data. Kuncinya kerja sama pemerintah, lembaga keuangan syariah, pelaku usaha, dan masyarakat.",
+          "halaman_buku": "hlm 5-16",
+          "perlu_verifikasi": false,
+          "sumber_id": "S3"
+        }
+      ]
+    },
+    {
+      "slug": "literasi-dan-inklusi",
+      "judul": "Literasi dan Inklusi Keuangan Syariah",
+      "ringkasan": "Beda literasi dan inklusi, angkanya, hambatan, strategi, dan contoh gadai emas syariah.",
+      "urutan": 11,
+      "sumber_bab": "S6; S7; S1",
+      "materi": [
+        {
+          "judul": "Literasi dan inklusi: apa bedanya?",
+          "isi": "Literasi berkaitan dengan pengetahuan dan pemahaman tentang keuangan. Inklusi keuangan, menurut Perpres No. 82 Tahun 2016, adalah kondisi ketika setiap orang punya akses ke layanan keuangan yang bermutu, terjangkau, aman, dan sesuai kebutuhan serta kemampuannya. Jadi literasi tentang tahu, inklusi tentang akses dan penggunaan.",
+          "halaman_buku": "Pendahuluan dan Tinjauan Pustaka",
+          "perlu_verifikasi": false,
+          "sumber_id": "S6"
+        },
+        {
+          "judul": "Angka literasi dan inklusi syariah",
+          "isi": "Artikel mengutip Survei Nasional Literasi dan Inklusi Keuangan (SNLIK) OJK 2025: literasi keuangan syariah 43,42 persen, inklusi keuangan syariah 13,41 persen, sedangkan inklusi keuangan konvensional 75,02 persen. Artinya banyak orang sudah tahu, tetapi belum memakai. Catatan: buku Materi Dakwah menyebut indeks literasi ekonomi syariah 28,01 persen (2023); angka-angka ini berasal dari pengukuran yang berbeda sehingga tidak boleh dibandingkan langsung.",
+          "halaman_buku": "Pendahuluan",
+          "perlu_verifikasi": true,
+          "sumber_id": "S6"
+        },
+        {
+          "judul": "Kenapa inklusi syariah masih rendah?",
+          "isi": "Artikel menyebut beberapa penyebab: akses layanan terbatas di desa dan daerah terpencil, persaingan dengan lembaga konvensional, pengetahuan masyarakat yang rendah, produk dianggap kurang variatif atau rumit, sebagian lembaga hanya menempelkan label syariah tanpa inovasi, regulasi digital yang belum memadai, serta literasi digital dan infrastruktur yang terbatas.",
+          "halaman_buku": "Hasil dan Pembahasan",
+          "perlu_verifikasi": false,
+          "sumber_id": "S6"
+        },
+        {
+          "judul": "Strategi meningkatkan inklusi",
+          "isi": "Strategi yang diusulkan: edukasi dan sosialisasi (termasuk lewat media sosial seperti infografis dan video pendek), pendampingan menggunakan layanan digital, kerja sama dengan pemerintah, sekolah dan perguruan tinggi, serta organisasi masyarakat, penyelarasan regulasi, inovasi produk, dan perluasan akses lewat jaringan agen dan teknologi digital.",
+          "halaman_buku": "Hasil dan Pembahasan",
+          "perlu_verifikasi": false,
+          "sumber_id": "S6"
+        },
+        {
+          "judul": "Pegadaian syariah",
+          "isi": "Pegadaian syariah adalah layanan pembiayaan gadai berprinsip syariah. Menurut artikel, unit layanan gadai syariah pertama berdiri tahun 2003 dan dalam operasionalnya diawasi Dewan Pengawas Syariah. Layanannya kini mencakup aplikasi digital, tabungan emas, dan cicil emas, serta program edukasi keuangan syariah. Detail sejarah dan layanan perlu dicek ke situs resmi Pegadaian.",
+          "halaman_buku": "Tinjauan Pustaka dan Hasil",
+          "perlu_verifikasi": true,
+          "sumber_id": "S6"
+        },
+        {
+          "judul": "Gadai emas syariah: tiga akad dalam satu produk",
+          "isi": "Pada gadai emas syariah ada tiga akad: qardh (pinjaman yang diberikan), rahn (penahanan emas sebagai jaminan), dan ijarah (jasa pemeliharaan dan penyimpanan barang). Menurut artikel, biaya pemeliharaan tidak boleh didasarkan pada besar pinjaman. Bila nasabah tidak mampu melunasi, barang jaminan dijual secara syariah; kelebihan hasil penjualan menjadi hak pemilik barang, dan kekurangannya tetap harus dilunasi. Istilah: rahin (penggadai), murtahin (penerima gadai), marhun (barang jaminan), marhun bih (pinjaman).",
+          "halaman_buku": "Hasil dan Pembahasan 2-3",
+          "perlu_verifikasi": false,
+          "sumber_id": "S7"
+        },
+        {
+          "judul": "Cicil emas: murabahah dengan rahn atau wakalah",
+          "isi": "Pada cicil emas, lembaga membeli emas dari pemasok atas pesanan nasabah, lalu menjualnya dengan harga pokok ditambah margin yang disepakati di awal, tunai atau angsuran. Bila diangsur, emas ditahan sebagai jaminan (murabahah dengan rahn). Ada juga bentuk murabahah dengan wakalah. Harga jual tidak boleh berubah selama akad berjalan walau jatuh tempo diperpanjang, dan emas yang sedang menjadi jaminan tidak boleh dijual lagi.",
+          "halaman_buku": "Hasil dan Pembahasan 1 dan 3",
+          "perlu_verifikasi": false,
+          "sumber_id": "S7"
+        }
+      ]
+    },
+    {
+      "slug": "bagi-hasil-praktik",
+      "judul": "Bagi Hasil: Teori dan Praktik",
+      "ringkasan": "Mengapa bagi hasil dianggap ideal, dan mengapa praktiknya masih menantang.",
+      "urutan": 12,
+      "sumber_bab": "S9; S4; S6",
+      "materi": [
+        {
+          "judul": "Risk sharing vs risk transfer",
+          "isi": "Sistem bagi hasil didasarkan pada berbagi risiko (risk sharing): pemilik dana dan pengelola sama-sama menanggung untung dan rugi sesuai akad. Pada sistem bunga, risiko dipindahkan ke peminjam (risk transfer) karena pembayaran tetap harus dilakukan meski usaha rugi. Dengan berbagi risiko, kedua pihak terdorong saling percaya dan transparan.",
+          "halaman_buku": "Hasil dan Pembahasan A",
+          "perlu_verifikasi": false,
+          "sumber_id": "S9"
+        },
+        {
+          "judul": "Kenapa lembaga lebih suka murabahah?",
+          "isi": "Artikel menemukan porsi akad bagi hasil masih jauh lebih kecil dibanding jual beli margin tetap seperti murabahah. Alasannya antara lain pembayaran lebih pasti, lebih mudah diawasi, dan lebih efisien, sementara bagi hasil lebih rumit: menilai kelayakan usaha, memverifikasi laporan keuangan nasabah, dan menangani risiko rugi. Akibatnya nasabah kadang diperlakukan seperti debitur konvensional.",
+          "halaman_buku": "Hasil dan Pembahasan B",
+          "perlu_verifikasi": false,
+          "sumber_id": "S9"
+        },
+        {
+          "judul": "Moral hazard dan pembukuan",
+          "isi": "Tantangan bagi hasil: moral hazard (pengelola punya peluang melaporkan untung lebih kecil dari kenyataan), usaha kecil sering belum punya pembukuan memadai, tenaga profesional yang paham akad bagi hasil masih kurang, dan literasi nasabah rendah sehingga lebih nyaman dengan cicilan tetap.",
+          "halaman_buku": "Hasil dan Pembahasan C",
+          "perlu_verifikasi": false,
+          "sumber_id": "S9"
+        },
+        {
+          "judul": "Peluang: digital dan UMKM",
+          "isi": "Pembukuan digital dapat membantu memantau arus kas usaha secara real time. UMKM yang sulit memberi agunan cocok dibantu dengan bagi hasil. Beberapa studi yang dikutip artikel menyebut sistem bagi hasil lebih tahan krisis karena kerugian dibagi. Kampus, pesantren, dan lembaga dakwah dapat menjadi agen edukasi.",
+          "halaman_buku": "Hasil dan Pembahasan D",
+          "perlu_verifikasi": true,
+          "sumber_id": "S9"
+        },
+        {
+          "judul": "Label syariah saja belum cukup",
+          "isi": "Beberapa sumber mengingatkan bahwa ada lembaga yang hanya menambahkan label syariah tanpa menyelaraskan akad dengan fatwa. Cara kritis menilai produk berlabel syariah: cek akad yang dipakai, kejelasan harga pokok, margin, dan biaya, adanya Dewan Pengawas Syariah, dan izin atau pengawasan OJK. Ini ringkasan dari beberapa sumber, bukan fatwa.",
+          "halaman_buku": "S4, S6, S7",
+          "perlu_verifikasi": true,
+          "sumber_id": "S4"
+        }
+      ]
+    }
+  ],
+  "istilah": [
+    {
+      "istilah": "Gharar",
+      "arab": "غرر",
+      "arti": "Ketidakjelasan dalam akad atau objek transaksi",
+      "contoh": "Membeli paket misteri tanpa tahu isinya",
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Riba",
+      "arab": "ربا",
+      "arti": "Tambahan atau bunga yang dipersyaratkan dalam pinjaman atau pertukaran tertentu",
+      "contoh": "Pinjam Rp 1 juta, kembali Rp 1,3 juta",
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Maysir",
+      "arab": "ميسر",
+      "arti": "Untung-untungan atau judi",
+      "contoh": "Taruhan atau judi online",
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "GHARIM",
+      "arab": "",
+      "arti": "Singkatan dari buku: Gharar, Riba, Maysir",
+      "contoh": "Tiga pertanyaan cek transaksi: jelas? adil? bukan untung-untungan?",
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Tadlis",
+      "arab": "تدليس",
+      "arti": "Menyembunyikan atau memalsukan informasi sehingga satu pihak tidak tahu yang sebenarnya",
+      "contoh": "Menyembunyikan cacat barang",
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Ihtikar",
+      "arab": "احتكار",
+      "arti": "Menimbun barang agar langka lalu menaikkan harga",
+      "contoh": "Menimbun barang kebutuhan sebelum hari raya",
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Falah",
+      "arab": "فلاح",
+      "arti": "Kesejahteraan dan keberuntungan di dunia dan akhirat",
+      "contoh": "Tujuan akhir kegiatan ekonomi syariah",
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Antaradin",
+      "arab": "تراض",
+      "arti": "Saling rela antara kedua pihak dalam transaksi",
+      "contoh": "Harga disepakati tanpa paksaan",
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Akad",
+      "arab": "عقد",
+      "arti": "Perjanjian atau kesepakatan dalam transaksi",
+      "contoh": "Kesepakatan bagi hasil 40:60",
+      "modul_slug": "akad-keuangan",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Nisbah",
+      "arab": "",
+      "arti": "Rasio pembagian keuntungan yang disepakati di awal",
+      "contoh": "40 persen untuk pemilik modal, 60 persen untuk pengelola",
+      "modul_slug": "akad-keuangan",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Shahibul maal",
+      "arab": "صاحب المال",
+      "arti": "Pemilik modal",
+      "contoh": "Sari yang menyediakan uang usaha",
+      "modul_slug": "akad-keuangan",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Mudharib",
+      "arab": "مضارب",
+      "arti": "Pengelola usaha",
+      "contoh": "Budi yang menjalankan usaha kopi",
+      "modul_slug": "akad-keuangan",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Mudharabah",
+      "arab": "مضاربة",
+      "arti": "Kerja sama modal dan keahlian dengan bagi hasil",
+      "contoh": "Pemodal dan pengelola kedai kopi",
+      "modul_slug": "akad-keuangan",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Musyarakah",
+      "arab": "مشاركة",
+      "arti": "Kemitraan di mana semua mitra menyertakan modal",
+      "contoh": "Dua sahabat patungan buka toko",
+      "modul_slug": "akad-keuangan",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Murabahah",
+      "arab": "مرابحة",
+      "arti": "Jual beli dengan harga pokok plus margin yang disepakati",
+      "contoh": "Beli motor dengan cicilan tetap",
+      "modul_slug": "akad-keuangan",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Salam",
+      "arab": "سلم",
+      "arti": "Pesan barang dengan bayar di muka, barang dikirim kemudian",
+      "contoh": "Memesan hasil panen dan membayar dulu",
+      "modul_slug": "akad-keuangan",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Istishna",
+      "arab": "استصناع",
+      "arti": "Pesan barang yang harus diproduksi sesuai spesifikasi",
+      "contoh": "Memesan lemari sesuai desain",
+      "modul_slug": "akad-keuangan",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Wadiah",
+      "arab": "وديعة",
+      "arti": "Titipan yang dijaga dan dapat diambil kapan saja",
+      "contoh": "Menitipkan uang di rekening tabungan",
+      "modul_slug": "akad-keuangan",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Ijarah",
+      "arab": "إجارة",
+      "arti": "Sewa manfaat barang atau jasa dengan upah",
+      "contoh": "Menyewa mesin fotokopi bulanan",
+      "modul_slug": "akad-keuangan",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Qardh",
+      "arab": "قرض",
+      "arti": "Pinjaman kebaikan: kembali sebesar pokok, tambahan hanya sukarela",
+      "contoh": "Meminjamkan uang ke teman tanpa syarat tambahan",
+      "modul_slug": "akad-keuangan",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Zakat",
+      "arab": "زكاة",
+      "arti": "Harta dengan kadar tertentu yang wajib diberikan kepada yang berhak",
+      "contoh": "Zakat penghasilan yang sudah mencapai syarat",
+      "modul_slug": "zakat-wakaf-infak",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Nisab",
+      "arab": "نصاب",
+      "arti": "Batas minimal harta yang wajib dizakati",
+      "contoh": "Harta baru wajib zakat bila mencapai batas ini",
+      "modul_slug": "zakat-wakaf-infak",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Haul",
+      "arab": "حول",
+      "arti": "Harta telah dimiliki selama satu tahun",
+      "contoh": "Syarat waktu pada zakat harta tertentu",
+      "modul_slug": "zakat-wakaf-infak",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Infak",
+      "arab": "إنفاق",
+      "arti": "Mengeluarkan harta secara sukarela untuk kebaikan",
+      "contoh": "Menyumbang untuk pembangunan sarana umum",
+      "modul_slug": "zakat-wakaf-infak",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Sedekah",
+      "arab": "صدقة",
+      "arti": "Pemberian sukarela untuk kebaikan, bisa berupa harta, tenaga, atau hal bermanfaat",
+      "contoh": "Berbagi makanan dengan tetangga",
+      "modul_slug": "zakat-wakaf-infak",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Wakaf",
+      "arab": "وقف",
+      "arti": "Menyerahkan harta agar manfaatnya terus dipakai untuk kebaikan umum",
+      "contoh": "Wakaf uang untuk pendidikan",
+      "modul_slug": "zakat-wakaf-infak",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Wakif",
+      "arab": "واقف",
+      "arti": "Orang yang berwakaf",
+      "contoh": "Seseorang yang mewakafkan uangnya",
+      "modul_slug": "zakat-wakaf-infak",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Nazhir",
+      "arab": "ناظر",
+      "arti": "Pihak yang mengelola harta wakaf",
+      "contoh": "Lembaga wakaf yang mengelola dana wakaf",
+      "modul_slug": "zakat-wakaf-infak",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Halal",
+      "arab": "حلال",
+      "arti": "Boleh atau diperbolehkan",
+      "contoh": "Produk yang bersertifikat halal",
+      "modul_slug": "gaya-hidup-halal",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Haram",
+      "arab": "حرام",
+      "arti": "Dilarang",
+      "contoh": "Usaha yang produknya dilarang",
+      "modul_slug": "harta-dan-bisnis",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Najasy",
+      "arab": "نجش",
+      "arti": "Berpura-pura menawar tinggi atau membuat permintaan palsu untuk memancing pembeli",
+      "contoh": "Akun pura-pura antre membeli",
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Risywah",
+      "arab": "رشوة",
+      "arti": "Suap: memberi sesuatu untuk memengaruhi keputusan secara tidak adil",
+      "contoh": "Memberi uang agar lolos seleksi",
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Khamr",
+      "arab": "خمر",
+      "arti": "Minuman yang memabukkan; buku mengqiyaskan narkoba dengannya",
+      "contoh": "Minuman keras",
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Haram li dzatihi",
+      "arab": "حرام لذاته",
+      "arti": "Haram karena zat barangnya",
+      "contoh": "Babi, bangkai, miras",
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Haram li ghairihi",
+      "arab": "حرام لغيره",
+      "arti": "Barang halal tetapi menjadi haram karena cara atau perilaku transaksinya merugikan",
+      "contoh": "Menjual barang halal dengan menipu",
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Wadiah yad dhamanah",
+      "arab": "وديعة يد ضمانة",
+      "arti": "Titipan yang boleh dimanfaatkan penerima, dengan jaminan dapat diambil kapan saja",
+      "contoh": "Giro dan tabungan di bank syariah",
+      "modul_slug": "akad-keuangan",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Qardhul hasan",
+      "arab": "قرض حسن",
+      "arti": "Pinjaman kebaikan untuk fungsi sosial",
+      "contoh": "Dana talangan sosial bank syariah",
+      "modul_slug": "akad-keuangan",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Musyarakah mutanaqisah",
+      "arab": "مشاركة متناقصة",
+      "arti": "Kemitraan di mana bagian satu pihak berkurang bertahap hingga pihak lain memiliki penuh",
+      "contoh": "Pembiayaan rumah dengan kepemilikan berpindah bertahap",
+      "modul_slug": "akad-keuangan",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "IMBT",
+      "arab": "إجارة منتهية بالتمليك",
+      "arti": "Ijarah muntahiyah bittamlik: sewa yang berakhir dengan kepemilikan",
+      "contoh": "Sewa kendaraan lalu menjadi milik penyewa",
+      "modul_slug": "akad-keuangan",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Wakalah",
+      "arab": "وكالة",
+      "arti": "Perwakilan: menyerahkan urusan kepada pihak lain",
+      "contoh": "Meminta bank mengurus pembayaran",
+      "modul_slug": "akad-keuangan",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Rahn",
+      "arab": "رهن",
+      "arti": "Gadai: menyerahkan barang sebagai jaminan utang",
+      "contoh": "Gadai emas syariah",
+      "modul_slug": "akad-keuangan",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Kafalah",
+      "arab": "كفالة",
+      "arti": "Jaminan dari satu pihak atas kewajiban pihak lain",
+      "contoh": "Garansi pembayaran",
+      "modul_slug": "akad-keuangan",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Hiwalah",
+      "arab": "حوالة",
+      "arti": "Pengalihan utang dari satu pihak ke pihak lain",
+      "contoh": "Memindahkan tagihan",
+      "modul_slug": "akad-keuangan",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Sharf",
+      "arab": "صرف",
+      "arti": "Jual beli mata uang",
+      "contoh": "Menukar rupiah dengan dolar",
+      "modul_slug": "akad-keuangan",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Muzaki",
+      "arab": "مزكي",
+      "arti": "Orang yang mengeluarkan zakat",
+      "contoh": "Seseorang yang membayar zakat maal",
+      "modul_slug": "zakat-wakaf-infak",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Mustahik",
+      "arab": "مستحق",
+      "arti": "Orang yang berhak menerima zakat",
+      "contoh": "Penerima zakat",
+      "modul_slug": "zakat-wakaf-infak",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Amil",
+      "arab": "عامل",
+      "arti": "Pengelola zakat",
+      "contoh": "Petugas lembaga zakat resmi",
+      "modul_slug": "zakat-wakaf-infak",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Zakat fitrah",
+      "arab": "زكاة الفطر",
+      "arti": "Zakat yang dikeluarkan di bulan Ramadan sebesar satu sha",
+      "contoh": "Dibayar sebelum Idulfitri",
+      "modul_slug": "zakat-wakaf-infak",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Zakat maal",
+      "arab": "زكاة المال",
+      "arti": "Zakat atas harta tertentu yang mencapai nisab dan haul",
+      "contoh": "Zakat simpanan emas dan uang",
+      "modul_slug": "zakat-wakaf-infak",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Wakaf muabbad",
+      "arab": "وقف مؤبد",
+      "arti": "Wakaf untuk selamanya dan tidak bisa diambil kembali",
+      "contoh": "Tanah wakaf masjid",
+      "modul_slug": "zakat-wakaf-infak",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Wakaf muaqqat",
+      "arab": "وقف مؤقت",
+      "arti": "Wakaf berjangka waktu yang hartanya dikembalikan setelah jangka selesai",
+      "contoh": "Wakaf manfaat selama 10 tahun",
+      "modul_slug": "zakat-wakaf-infak",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Sukuk",
+      "arab": "صكوك",
+      "arti": "Surat berharga atau obligasi syariah",
+      "contoh": "Sukuk negara",
+      "modul_slug": "lembaga-dan-digital",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "DPS",
+      "arab": "",
+      "arti": "Dewan Pengawas Syariah: memastikan operasional bank sesuai prinsip syariah",
+      "contoh": "Pengawas syariah di bank syariah",
+      "modul_slug": "lembaga-dan-digital",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "LPS",
+      "arab": "",
+      "arti": "Lembaga Penjamin Simpanan: menjamin simpanan nasabah bank",
+      "contoh": "Perlindungan dana tabungan",
+      "modul_slug": "lembaga-dan-digital",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "OJK",
+      "arab": "",
+      "arti": "Otoritas Jasa Keuangan: mengawasi lembaga jasa keuangan; kontak 157",
+      "contoh": "Cek legalitas pinjol lewat OJK 157",
+      "modul_slug": "lembaga-dan-digital",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "BPJPH",
+      "arab": "",
+      "arti": "Badan Penyelenggara Jaminan Produk Halal: mengelola pendaftaran dan pengawasan sertifikasi halal",
+      "contoh": "Mendaftar sertifikat halal produk UMKM",
+      "modul_slug": "gaya-hidup-halal",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Self-declare",
+      "arab": "",
+      "arti": "Jalur sertifikasi halal berdasarkan pernyataan pelaku usaha mikro kecil berisiko rendah",
+      "contoh": "Warung kue dengan bahan jelas halal",
+      "modul_slug": "gaya-hidup-halal",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Crowdfunding (urun dana)",
+      "arab": "",
+      "arti": "Masyarakat bersama-sama mendanai proyek atau usaha lewat platform",
+      "contoh": "Penggalangan dana usaha kecil",
+      "modul_slug": "lembaga-dan-digital",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "P2P lending",
+      "arab": "",
+      "arti": "Pinjaman langsung antara pemberi dan penerima lewat platform digital",
+      "contoh": "Pinjaman lewat platform berizin OJK",
+      "modul_slug": "lembaga-dan-digital",
+      "sumber_id": "S1"
+    },
+    {
+      "istilah": "Maqashid syariah",
+      "arab": "مقاصد الشريعة",
+      "arti": "Tujuan penetapan hukum Islam: kemaslahatan lewat menjaga agama, jiwa, akal, keturunan, dan harta",
+      "contoh": "Mencari harta lewat jalan halal",
+      "modul_slug": "tujuan-dan-perilaku",
+      "sumber_id": "S2"
+    },
+    {
+      "istilah": "Dharuriyat",
+      "arab": "ضروريات",
+      "arti": "Kebutuhan primer; bila diabaikan, lima pokok kehidupan terancam",
+      "contoh": "Makanan pokok untuk bertahan hidup",
+      "modul_slug": "tujuan-dan-perilaku",
+      "sumber_id": "S2"
+    },
+    {
+      "istilah": "Hajiyat",
+      "arab": "حاجيات",
+      "arti": "Kebutuhan sekunder; bila diabaikan hidup menjadi sulit",
+      "contoh": "Jual beli salam",
+      "modul_slug": "tujuan-dan-perilaku",
+      "sumber_id": "S2"
+    },
+    {
+      "istilah": "Tahsiniyat",
+      "arab": "تحسينيات",
+      "arti": "Kebutuhan pelengkap yang membuat hidup pantas",
+      "contoh": "Menghindari penipuan",
+      "modul_slug": "tujuan-dan-perilaku",
+      "sumber_id": "S2"
+    },
+    {
+      "istilah": "Israf",
+      "arab": "إسراف",
+      "arti": "Berlebihan memakai harta melebihi ukuran yang patut",
+      "contoh": "Membeli kendaraan melebihi kebutuhan",
+      "modul_slug": "tujuan-dan-perilaku",
+      "sumber_id": "S2"
+    },
+    {
+      "istilah": "Tabdzir",
+      "arab": "تبذير",
+      "arti": "Menghambur-hamburkan harta untuk hal yang tidak diperlukan",
+      "contoh": "Membeli barang mahal yang tidak dipakai",
+      "modul_slug": "tujuan-dan-perilaku",
+      "sumber_id": "S2"
+    },
+    {
+      "istilah": "Mulamasah",
+      "arab": "ملامسة",
+      "arti": "Jual beli dengan hanya saling menyentuh barang tanpa mengamatinya",
+      "contoh": "Menyentuh baju lalu transaksi dianggap jadi",
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "sumber_id": "S2"
+    },
+    {
+      "istilah": "Munabadzah",
+      "arab": "منابذة",
+      "arti": "Jual beli dengan saling melempar barang tanpa mengamatinya",
+      "contoh": "Saling melempar pakaian sebagai tanda jadi",
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "sumber_id": "S2"
+    },
+    {
+      "istilah": "Taghrir",
+      "arab": "تغرير",
+      "arti": "Memengaruhi orang bertransaksi dengan ucapan atau tindakan yang mengandung kebohongan",
+      "contoh": "Wash sale di pasar modal",
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "sumber_id": "S2"
+    },
+    {
+      "istilah": "Tabarru'",
+      "arab": "تبرع",
+      "arti": "Pemberian sukarela tanpa imbalan",
+      "contoh": "Donasi di platform urun dana sosial",
+      "modul_slug": "fintech-dan-digital",
+      "sumber_id": "S4"
+    },
+    {
+      "istilah": "Wakalah bil ujrah",
+      "arab": "وكالة بالأجرة",
+      "arti": "Perwakilan dengan imbalan jasa (ujrah) yang jelas",
+      "contoh": "Platform menyalurkan donasi dengan biaya nominal tetap",
+      "modul_slug": "fintech-dan-digital",
+      "sumber_id": "S4"
+    },
+    {
+      "istilah": "Ujrah",
+      "arab": "أجرة",
+      "arti": "Upah atau imbalan jasa",
+      "contoh": "Biaya jasa platform atau penyimpanan barang gadai",
+      "modul_slug": "fintech-dan-digital",
+      "sumber_id": "S4"
+    },
+    {
+      "istilah": "Fintech syariah",
+      "arab": "",
+      "arti": "Layanan keuangan berbasis teknologi yang mengikuti prinsip syariah",
+      "contoh": "Urun dana syariah dan P2P lending syariah",
+      "modul_slug": "fintech-dan-digital",
+      "sumber_id": "S4"
+    },
+    {
+      "istilah": "Rahin",
+      "arab": "راهن",
+      "arti": "Orang yang menggadaikan barang",
+      "contoh": "Nasabah gadai emas",
+      "modul_slug": "literasi-dan-inklusi",
+      "sumber_id": "S7"
+    },
+    {
+      "istilah": "Murtahin",
+      "arab": "مرتهن",
+      "arti": "Pihak yang menerima gadai",
+      "contoh": "Lembaga pegadaian",
+      "modul_slug": "literasi-dan-inklusi",
+      "sumber_id": "S7"
+    },
+    {
+      "istilah": "Marhun",
+      "arab": "مرهون",
+      "arti": "Barang yang dijadikan jaminan gadai",
+      "contoh": "Emas yang digadaikan",
+      "modul_slug": "literasi-dan-inklusi",
+      "sumber_id": "S7"
+    },
+    {
+      "istilah": "Marhun bih",
+      "arab": "مرهون به",
+      "arti": "Utang atau pinjaman yang dijamin dengan barang gadai",
+      "contoh": "Uang pinjaman dari pegadaian",
+      "modul_slug": "literasi-dan-inklusi",
+      "sumber_id": "S7"
+    },
+    {
+      "istilah": "SBSN",
+      "arab": "",
+      "arti": "Surat Berharga Syariah Negara, atau sukuk negara",
+      "contoh": "Sukuk negara untuk pembiayaan infrastruktur",
+      "modul_slug": "regulasi-dan-lembaga",
+      "sumber_id": "S10"
+    },
+    {
+      "istilah": "BMT",
+      "arab": "",
+      "arti": "Baitul Maal wa Tamwil: koperasi keuangan mikro syariah",
+      "contoh": "Simpan pinjam syariah di tingkat desa",
+      "modul_slug": "regulasi-dan-lembaga",
+      "sumber_id": "S2"
+    },
+    {
+      "istilah": "BPRS",
+      "arab": "",
+      "arti": "Bank Pembiayaan Rakyat Syariah",
+      "contoh": "Bank syariah untuk usaha mikro dan kecil",
+      "modul_slug": "regulasi-dan-lembaga",
+      "sumber_id": "S2"
+    },
+    {
+      "istilah": "DSN-MUI",
+      "arab": "",
+      "arti": "Dewan Syariah Nasional MUI: lembaga yang mengeluarkan fatwa keuangan syariah",
+      "contoh": "Fatwa tentang murabahah dan rahn",
+      "modul_slug": "regulasi-dan-lembaga",
+      "sumber_id": "S2"
+    },
+    {
+      "istilah": "BASYARNAS",
+      "arab": "",
+      "arti": "Badan Arbitrase Syariah Nasional: lembaga penyelesaian sengketa syariah",
+      "contoh": "Sengketa pembiayaan syariah yang tidak selesai lewat musyawarah",
+      "modul_slug": "fintech-dan-digital",
+      "sumber_id": "S4"
+    },
+    {
+      "istilah": "BAZNAS",
+      "arab": "",
+      "arti": "Badan Amil Zakat Nasional: badan resmi pemerintah pengelola zakat nasional",
+      "contoh": "Menyalurkan zakat, infak, dan sedekah",
+      "modul_slug": "regulasi-dan-lembaga",
+      "sumber_id": "S2"
+    },
+    {
+      "istilah": "LAZ",
+      "arab": "",
+      "arti": "Lembaga Amil Zakat: lembaga pengelola zakat selain BAZNAS",
+      "contoh": "Zakat yang dibayar lewat LAZ dapat mengurangi penghasilan untuk pajak",
+      "modul_slug": "regulasi-dan-lembaga",
+      "sumber_id": "S10"
+    },
+    {
+      "istilah": "BWI",
+      "arab": "",
+      "arti": "Badan Wakaf Indonesia",
+      "contoh": "Pembina nazhir wakaf",
+      "modul_slug": "regulasi-dan-lembaga",
+      "sumber_id": "S2"
+    },
+    {
+      "istilah": "Risk sharing",
+      "arab": "",
+      "arti": "Berbagi risiko usaha antara pemilik dana dan pengelola",
+      "contoh": "Bagi hasil mudharabah",
+      "modul_slug": "bagi-hasil-praktik",
+      "sumber_id": "S9"
+    },
+    {
+      "istilah": "Risk transfer",
+      "arab": "",
+      "arti": "Pemindahan risiko ke satu pihak",
+      "contoh": "Bunga tetap dibayar walau usaha rugi",
+      "modul_slug": "bagi-hasil-praktik",
+      "sumber_id": "S9"
+    },
+    {
+      "istilah": "Moral hazard",
+      "arab": "",
+      "arti": "Peluang pengelola bertindak merugikan, misalnya melaporkan untung lebih kecil",
+      "contoh": "Laporan usaha yang tidak jujur",
+      "modul_slug": "bagi-hasil-praktik",
+      "sumber_id": "S9"
+    },
+    {
+      "istilah": "Inklusi keuangan",
+      "arab": "",
+      "arti": "Akses dan penggunaan layanan keuangan yang bermutu, terjangkau, dan aman oleh semua orang",
+      "contoh": "Rekening syariah bagi warga desa",
+      "modul_slug": "literasi-dan-inklusi",
+      "sumber_id": "S6"
+    },
+    {
+      "istilah": "Literasi keuangan",
+      "arab": "",
+      "arti": "Pengetahuan dan pemahaman tentang keuangan",
+      "contoh": "Tahu bedanya murabahah dan riba",
+      "modul_slug": "literasi-dan-inklusi",
+      "sumber_id": "S6"
+    },
+    {
+      "istilah": "SNLIK",
+      "arab": "",
+      "arti": "Survei Nasional Literasi dan Inklusi Keuangan oleh OJK",
+      "contoh": "Sumber angka literasi dan inklusi",
+      "modul_slug": "literasi-dan-inklusi",
+      "sumber_id": "S6"
+    }
+  ],
+  "soal": [
+    {
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "pertanyaan": "GHARIM adalah singkatan dari tiga hal yang dihindari. Apa saja?",
+      "opsi": [
+        "Gharar, Ribh, Mudharabah",
+        "Ghanimah, Riba, Musyarakah",
+        "Gharar, Halal, Infak",
+        "Gharar, Riba, Maysir"
+      ],
+      "jawaban": 3,
+      "jawaban_teks": "Gharar, Riba, Maysir",
+      "penjelasan": "GHARIM: Gharar (ketidakjelasan), Riba (tambahan atau bunga), Maysir (untung-untungan).",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "pertanyaan": "Membeli produk lalu ikut undian yang pemenangnya murni untung-untungan. Ini termasuk...",
+      "opsi": [
+        "Maysir",
+        "Ijarah",
+        "Riba",
+        "Wadiah"
+      ],
+      "jawaban": 0,
+      "jawaban_teks": "Maysir",
+      "penjelasan": "Maysir adalah untung-untungan yang membuat satu pihak untung karena pihak lain rugi.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "pertanyaan": "Utang Rp 1 juta harus kembali Rp 1,3 juta karena pembayaran ditunda sebulan. Ini disebut...",
+      "opsi": [
+        "Riba nasiah",
+        "Ihtikar",
+        "Riba fadhl",
+        "Tadlis"
+      ],
+      "jawaban": 0,
+      "jawaban_teks": "Riba nasiah",
+      "penjelasan": "Riba nasiah adalah tambahan yang dikaitkan dengan penundaan pembayaran utang.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "pertanyaan": "Menukar 10 gram emas 24 karat dengan 11 gram emas 22 karat termasuk...",
+      "opsi": [
+        "Murabahah",
+        "Riba fadhl",
+        "Salam",
+        "Riba nasiah"
+      ],
+      "jawaban": 1,
+      "jawaban_teks": "Riba fadhl",
+      "penjelasan": "Riba fadhl terjadi pada pertukaran barang sejenis yang tidak sama kualitas dan jumlahnya.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "pertanyaan": "Penjual menyembunyikan cacat barang agar pembeli tidak tahu. Ini disebut...",
+      "opsi": [
+        "Maysir",
+        "Wakaf",
+        "Ihtikar",
+        "Tadlis"
+      ],
+      "jawaban": 3,
+      "jawaban_teks": "Tadlis",
+      "penjelasan": "Tadlis: salah satu pihak tidak mengetahui informasi yang diketahui pihak lain.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "pertanyaan": "Menahan barang kebutuhan agar langka lalu menaikkan harga disebut...",
+      "opsi": [
+        "Haul",
+        "Ihtikar",
+        "Qardh",
+        "Istishna"
+      ],
+      "jawaban": 1,
+      "jawaban_teks": "Ihtikar",
+      "penjelasan": "Ihtikar adalah menimbun barang untuk menciptakan kelangkaan dan menaikkan harga.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "pertanyaan": "Apa beda utama jual beli dengan riba menurut buku?",
+      "opsi": [
+        "Jual beli selalu tunai, riba selalu kredit",
+        "Keduanya sama, hanya beda nama",
+        "Jual beli menukar uang dengan barang, riba menukar uang dengan uang tanpa barang pengganti",
+        "Riba punya akad jual beli, jual beli tidak"
+      ],
+      "jawaban": 2,
+      "jawaban_teks": "Jual beli menukar uang dengan barang, riba menukar uang dengan uang tanpa barang pengganti",
+      "penjelasan": "Pada jual beli ada barang dan perpindahan kepemilikan; pada riba uang langsung dijadikan komoditas.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "pertanyaan": "Jika pembayaran macet, apa yang terjadi pada riba menurut tabel perbedaan di buku?",
+      "opsi": [
+        "Terjadi bunga berbunga (compound interest) dan denda",
+        "Kepemilikan barang berpindah",
+        "Tidak ada tambahan apa pun",
+        "Utang otomatis lunas"
+      ],
+      "jawaban": 0,
+      "jawaban_teks": "Terjadi bunga berbunga (compound interest) dan denda",
+      "penjelasan": "Pada jual beli, jika nasabah tidak mampu bayar tidak ada denda atau bunga berbunga.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "pertanyaan": "Seseorang berpura-pura menawar tinggi agar harga naik dan pembeli lain terpengaruh. Ini disebut...",
+      "opsi": [
+        "Salam",
+        "Qardh",
+        "Wadiah",
+        "Najasy"
+      ],
+      "jawaban": 3,
+      "jawaban_teks": "Najasy",
+      "penjelasan": "Najasy: rekayasa permintaan palsu untuk menaikkan harga dan memengaruhi orang lain.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "pertanyaan": "Memberi uang kepada petugas agar keputusannya menguntungkan kita termasuk...",
+      "opsi": [
+        "Risywah (suap)",
+        "Wakaf",
+        "Sedekah",
+        "Ijarah"
+      ],
+      "jawaban": 0,
+      "jawaban_teks": "Risywah (suap)",
+      "penjelasan": "Risywah adalah pemberian untuk memengaruhi keputusan secara tidak adil.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "pertanyaan": "Kata ekonomi berasal dari oikos dan nomos. Artinya kira-kira...",
+      "opsi": [
+        "Harta warisan",
+        "Aturan rumah tangga",
+        "Uang dan emas",
+        "Aturan perdagangan"
+      ],
+      "jawaban": 1,
+      "jawaban_teks": "Aturan rumah tangga",
+      "penjelasan": "Oikos berarti rumah tangga dan nomos berarti aturan.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "pertanyaan": "Tujuan akhir kegiatan ekonomi syariah disebut...",
+      "opsi": [
+        "Nisab",
+        "Haul",
+        "Nisbah",
+        "Falah (kesejahteraan dunia dan akhirat)"
+      ],
+      "jawaban": 3,
+      "jawaban_teks": "Falah (kesejahteraan dunia dan akhirat)",
+      "penjelasan": "Tabel perbedaan di buku menyebut tujuannya adalah falah.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "nilai-dan-prinsip",
+      "pertanyaan": "Salah satu prinsip ekonomi syariah menurut buku: transaksi keuangan terkait erat dengan...",
+      "opsi": [
+        "Bunga",
+        "Spekulasi",
+        "Sektor riil",
+        "Undian"
+      ],
+      "jawaban": 2,
+      "jawaban_teks": "Sektor riil",
+      "penjelasan": "Transaksi keuangan idealnya terhubung dengan kegiatan nyata di sektor riil.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "nilai-dan-prinsip",
+      "pertanyaan": "Empat nilai ekonomi syariah: kepemilikan, keadilan dalam berusaha, kerja sama dalam kebaikan, dan...",
+      "opsi": [
+        "Keuntungan sebesar-besarnya",
+        "Persaingan tanpa batas",
+        "Kepemilikan negara penuh",
+        "Pertumbuhan yang seimbang"
+      ],
+      "jawaban": 3,
+      "jawaban_teks": "Pertumbuhan yang seimbang",
+      "penjelasan": "Keempat nilai bertujuan pada kesejahteraan bersama.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "harta-dan-bisnis",
+      "pertanyaan": "Dalam ekonomi syariah, harta dipandang sebagai...",
+      "opsi": [
+        "Milik pribadi sepenuhnya tanpa batas",
+        "Milik negara seluruhnya",
+        "Titipan Allah yang harus dikelola dengan bertanggung jawab",
+        "Sesuatu yang tidak boleh dimiliki"
+      ],
+      "jawaban": 2,
+      "jawaban_teks": "Titipan Allah yang harus dikelola dengan bertanggung jawab",
+      "penjelasan": "Tabel perbedaan di buku: kepemilikan adalah titipan dari Allah.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "harta-dan-bisnis",
+      "pertanyaan": "Tiga klasifikasi haram dalam bisnis: produk, sumber dana, dan...",
+      "opsi": [
+        "Perilaku (cara berbisnis)",
+        "Jumlah karyawan",
+        "Lokasi toko",
+        "Warna kemasan"
+      ],
+      "jawaban": 0,
+      "jawaban_teks": "Perilaku (cara berbisnis)",
+      "penjelasan": "Bisnis bisa bermasalah dari produknya, sumber dananya, atau perilakunya.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "harta-dan-bisnis",
+      "pertanyaan": "Menjual barang cacat tanpa memberi tahu pembeli termasuk haram dari sisi...",
+      "opsi": [
+        "Produk",
+        "Sumber dana",
+        "Perilaku",
+        "Pajak"
+      ],
+      "jawaban": 2,
+      "jawaban_teks": "Perilaku",
+      "penjelasan": "Barangnya mungkin halal, tetapi caranya menipu.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "harta-dan-bisnis",
+      "pertanyaan": "Empat tahap profesionalisme kerja: iman, ijtihad, jihad, dan...",
+      "opsi": [
+        "Istiqomah (konsisten)",
+        "Infak",
+        "Ijarah",
+        "Ihtikar"
+      ],
+      "jawaban": 0,
+      "jawaban_teks": "Istiqomah (konsisten)",
+      "penjelasan": "Etos kerja (iman), perencanaan (ijtihad), pelaksanaan (jihad), konsisten (istiqomah).",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "akad-keuangan",
+      "pertanyaan": "Pada mudharabah, siapa yang menanggung kerugian uang jika bukan karena kelalaian pengelola?",
+      "opsi": [
+        "Pemilik modal",
+        "Keduanya selalu sama rata",
+        "Tidak ada yang menanggung",
+        "Pengelola usaha"
+      ],
+      "jawaban": 0,
+      "jawaban_teks": "Pemilik modal",
+      "penjelasan": "Kerugian ditanggung pemilik modal, kecuali karena kelalaian pengelola.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "akad-keuangan",
+      "pertanyaan": "Jual beli dengan harga pokok ditambah margin yang disepakati dan boleh dicicil disebut...",
+      "opsi": [
+        "Qardh",
+        "Ijarah",
+        "Murabahah",
+        "Wadiah"
+      ],
+      "jawaban": 2,
+      "jawaban_teks": "Murabahah",
+      "penjelasan": "Murabahah: harga pokok + margin yang diketahui sejak awal.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "akad-keuangan",
+      "pertanyaan": "Memesan lemari yang harus dibuat dulu sesuai desain, pembayaran boleh di awal, tengah, atau akhir. Akadnya...",
+      "opsi": [
+        "Wadiah",
+        "Ijarah",
+        "Istishna",
+        "Salam"
+      ],
+      "jawaban": 2,
+      "jawaban_teks": "Istishna",
+      "penjelasan": "Istishna adalah pemesanan barang yang perlu diproduksi sesuai spesifikasi.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "akad-keuangan",
+      "pertanyaan": "Memesan hasil panen dengan sifat yang jelas dan membayar di muka, barang datang kemudian. Akadnya...",
+      "opsi": [
+        "Salam",
+        "Istishna",
+        "Murabahah",
+        "Qardh"
+      ],
+      "jawaban": 0,
+      "jawaban_teks": "Salam",
+      "penjelasan": "Salam: pesan barang yang sifatnya dijelaskan dengan pembayaran di awal.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "akad-keuangan",
+      "pertanyaan": "Menitipkan uang agar aman dan bisa diambil kapan saja adalah akad...",
+      "opsi": [
+        "Murabahah",
+        "Wadiah",
+        "Istishna",
+        "Musyarakah"
+      ],
+      "jawaban": 1,
+      "jawaban_teks": "Wadiah",
+      "penjelasan": "Wadiah adalah akad titipan yang dapat diambil kembali kapan saja.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "akad-keuangan",
+      "pertanyaan": "Pada akad ijarah, yang berpindah adalah...",
+      "opsi": [
+        "Kepemilikan barang",
+        "Utang",
+        "Saham",
+        "Hak guna (manfaat) barang atau jasa"
+      ],
+      "jawaban": 3,
+      "jawaban_teks": "Hak guna (manfaat) barang atau jasa",
+      "penjelasan": "Ijarah menukar manfaat dengan upah (ujrah), bukan memindahkan kepemilikan.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "akad-keuangan",
+      "pertanyaan": "Pada qardh, tambahan saat mengembalikan pinjaman boleh jika...",
+      "opsi": [
+        "Ditentukan oleh penagih",
+        "Diberikan sukarela dan tidak diperjanjikan dalam akad",
+        "Diwajibkan dalam akad",
+        "Dihitung bunga per bulan"
+      ],
+      "jawaban": 1,
+      "jawaban_teks": "Diberikan sukarela dan tidak diperjanjikan dalam akad",
+      "penjelasan": "Peminjam wajib mengembalikan pokok; tambahan hanya sukarela.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "akad-keuangan",
+      "pertanyaan": "Apa ciri yang membedakan musyarakah dari mudharabah?",
+      "opsi": [
+        "Semua mitra menyertakan modal",
+        "Tidak ada bagi hasil",
+        "Uang hanya dititipkan",
+        "Hanya satu pihak yang bekerja"
+      ],
+      "jawaban": 0,
+      "jawaban_teks": "Semua mitra menyertakan modal",
+      "penjelasan": "Pada musyarakah semua pihak berkontribusi modal; pada mudharabah satu pihak modal, satu pihak keahlian.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "akad-keuangan",
+      "pertanyaan": "Nisbah adalah...",
+      "opsi": [
+        "Denda keterlambatan",
+        "Batas minimal zakat",
+        "Biaya sewa tetap",
+        "Rasio pembagian keuntungan yang disepakati di awal"
+      ],
+      "jawaban": 3,
+      "jawaban_teks": "Rasio pembagian keuntungan yang disepakati di awal",
+      "penjelasan": "Contoh: nisbah 40:60 artinya 40 persen untuk pemilik modal dan 60 persen untuk pengelola.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "akad-keuangan",
+      "pertanyaan": "Mudharabah yang tidak dibatasi jenis usaha, waktu, dan tempat disebut...",
+      "opsi": [
+        "Mudharabah muqayyadah",
+        "Mudharabah muthlaqah",
+        "Wadiah yad dhamanah",
+        "Mudharabah tsunaiyyah"
+      ],
+      "jawaban": 1,
+      "jawaban_teks": "Mudharabah muthlaqah",
+      "penjelasan": "Muthlaqah tidak dibatasi; muqayyadah dibatasi.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "akad-keuangan",
+      "pertanyaan": "Mengapa murabahah berbeda dari riba?",
+      "opsi": [
+        "Karena uang langsung ditukar uang",
+        "Karena bunga dihitung harian",
+        "Karena tidak ada akad",
+        "Yang dijual adalah barang nyata dengan harga dan margin yang jelas sejak awal"
+      ],
+      "jawaban": 3,
+      "jawaban_teks": "Yang dijual adalah barang nyata dengan harga dan margin yang jelas sejak awal",
+      "penjelasan": "Murabahah adalah jual beli barang; riba menjadikan uang sebagai komoditas.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "zakat-wakaf-infak",
+      "pertanyaan": "Nisab adalah...",
+      "opsi": [
+        "Masa kepemilikan satu tahun",
+        "Penerima zakat",
+        "Batas minimal harta yang wajib dizakati",
+        "Pengelola wakaf"
+      ],
+      "jawaban": 2,
+      "jawaban_teks": "Batas minimal harta yang wajib dizakati",
+      "penjelasan": "Nisab adalah batas minimal harta; haul adalah masa kepemilikan satu tahun.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "zakat-wakaf-infak",
+      "pertanyaan": "Haul adalah...",
+      "opsi": [
+        "Pemberi wakaf",
+        "Batas minimal harta",
+        "Harta telah dimiliki selama satu tahun",
+        "Kadar zakat 2,5 persen"
+      ],
+      "jawaban": 2,
+      "jawaban_teks": "Harta telah dimiliki selama satu tahun",
+      "penjelasan": "Haul adalah syarat waktu pada zakat harta tertentu.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "zakat-wakaf-infak",
+      "pertanyaan": "Menurut buku, nisab zakat emas, perak, dan uang simpanan setara...",
+      "opsi": [
+        "5 gram emas",
+        "8,5 gram emas",
+        "850 gram emas",
+        "85 gram emas"
+      ],
+      "jawaban": 3,
+      "jawaban_teks": "85 gram emas",
+      "penjelasan": "Nisab setara 85 gram emas dengan kadar 2,5 persen dan harus haul.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "zakat-wakaf-infak",
+      "pertanyaan": "Kadar zakat maal emas dan uang simpanan yang mencapai nisab dan haul adalah...",
+      "opsi": [
+        "10 persen",
+        "25 persen",
+        "2,5 persen",
+        "5 persen"
+      ],
+      "jawaban": 2,
+      "jawaban_teks": "2,5 persen",
+      "penjelasan": "Kadarnya 2,5 persen dari harta yang tersimpan selama setahun.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "zakat-wakaf-infak",
+      "pertanyaan": "Harta tersimpan setahun Rp 200 juta dan nisab Rp 85 juta (harga emas ilustrasi). Zakat maalnya...",
+      "opsi": [
+        "Rp 20 juta",
+        "Rp 5 juta",
+        "Rp 2 juta",
+        "Tidak wajib zakat"
+      ],
+      "jawaban": 1,
+      "jawaban_teks": "Rp 5 juta",
+      "penjelasan": "2,5 persen x Rp 200 juta = Rp 5 juta, karena harta melebihi nisab.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "zakat-wakaf-infak",
+      "pertanyaan": "Orang yang berwakaf disebut wakif, sedangkan pengelola harta wakaf disebut...",
+      "opsi": [
+        "Muzaki",
+        "Nazhir",
+        "Mudharib",
+        "Mustahik"
+      ],
+      "jawaban": 1,
+      "jawaban_teks": "Nazhir",
+      "penjelasan": "Wakif memberi, nazhir mengelola.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "zakat-wakaf-infak",
+      "pertanyaan": "Wakaf uang dibolehkan di Indonesia lewat fatwa MUI tahun...",
+      "opsi": [
+        "2002",
+        "2022",
+        "2015",
+        "1990"
+      ],
+      "jawaban": 0,
+      "jawaban_teks": "2002",
+      "penjelasan": "Buku menyebut Komisi Fatwa MUI mengeluarkan fatwa wakaf uang pada 2002.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "zakat-wakaf-infak",
+      "pertanyaan": "Wakaf yang diberikan untuk selamanya dan tidak bisa diambil kembali disebut...",
+      "opsi": [
+        "Wakaf musytarak",
+        "Wakaf muabbad",
+        "Wakaf ahli",
+        "Wakaf muaqqat"
+      ],
+      "jawaban": 1,
+      "jawaban_teks": "Wakaf muabbad",
+      "penjelasan": "Muabbad tidak terbatas waktu; muaqqat terbatas waktu.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "zakat-wakaf-infak",
+      "pertanyaan": "Apa beda infak dan sedekah dengan zakat?",
+      "opsi": [
+        "Hanya boleh berupa uang",
+        "Bersifat sukarela, tanpa syarat nisab dan haul seperti zakat",
+        "Wajib dengan nisab dan haul",
+        "Hanya untuk keluarga"
+      ],
+      "jawaban": 1,
+      "jawaban_teks": "Bersifat sukarela, tanpa syarat nisab dan haul seperti zakat",
+      "penjelasan": "Infak dan sedekah adalah pemberian sukarela untuk kebaikan.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "gaya-hidup-halal",
+      "pertanyaan": "Undang-undang yang mewajibkan sertifikasi halal produk beredar adalah UU No...",
+      "opsi": [
+        "41 Tahun 2004",
+        "8 Tahun 1995",
+        "33 Tahun 2014",
+        "23 Tahun 2011"
+      ],
+      "jawaban": 2,
+      "jawaban_teks": "33 Tahun 2014",
+      "penjelasan": "UU JPH berlaku efektif sejak 17 Oktober 2019.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "gaya-hidup-halal",
+      "pertanyaan": "Lembaga utama pelaksana jaminan produk halal di Indonesia adalah...",
+      "opsi": [
+        "BPJS",
+        "LPS",
+        "BPJPH",
+        "OJK"
+      ],
+      "jawaban": 2,
+      "jawaban_teks": "BPJPH",
+      "penjelasan": "BPJPH mengelola pendaftaran dan pengawasan sertifikasi halal.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "gaya-hidup-halal",
+      "pertanyaan": "Sertifikasi halal jalur self-declare diperuntukkan bagi...",
+      "opsi": [
+        "Usaha mikro kecil berisiko rendah dengan bahan jelas halal dan proses sederhana",
+        "Hanya produk impor",
+        "Hanya perusahaan besar",
+        "Semua produk tanpa batas"
+      ],
+      "jawaban": 0,
+      "jawaban_teks": "Usaha mikro kecil berisiko rendah dengan bahan jelas halal dan proses sederhana",
+      "penjelasan": "Penetapan halalnya dikeluarkan oleh Komite Fatwa Produk Halal.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "gaya-hidup-halal",
+      "pertanyaan": "Buku membahas berapa sektor gaya hidup halal?",
+      "opsi": [
+        "Sepuluh",
+        "Dua",
+        "Tiga",
+        "Tujuh"
+      ],
+      "jawaban": 3,
+      "jawaban_teks": "Tujuh",
+      "penjelasan": "Makanan dan minuman, modest fashion, pariwisata ramah Muslim, keuangan syariah, farmasi, kosmetik, media dan hiburan.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "lembaga-dan-digital",
+      "pertanyaan": "Pada akad wadiah yad dhamanah di giro bank syariah, bank...",
+      "opsi": [
+        "Wajib memberi keuntungan tetap",
+        "Boleh memanfaatkan dana dan menjamin nasabah bisa menarik kapan saja",
+        "Tidak bertanggung jawab atas kerugian",
+        "Menetapkan bunga di awal"
+      ],
+      "jawaban": 1,
+      "jawaban_teks": "Boleh memanfaatkan dana dan menjamin nasabah bisa menarik kapan saja",
+      "penjelasan": "Imbalan tidak dijanjikan di awal; bonus boleh diberikan.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "lembaga-dan-digital",
+      "pertanyaan": "Soal risiko, bank syariah menurut buku...",
+      "opsi": [
+        "Menanggung risiko bersama nasabah dengan prinsip adil dan jujur",
+        "Tidak mengenal risiko",
+        "Menanggung semua risiko sendiri",
+        "Menyerahkan semua risiko ke nasabah"
+      ],
+      "jawaban": 0,
+      "jawaban_teks": "Menanggung risiko bersama nasabah dengan prinsip adil dan jujur",
+      "penjelasan": "Di bank konvensional bunga tetap dibayar terlepas dari untung atau rugi.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "lembaga-dan-digital",
+      "pertanyaan": "Fungsi tambahan bank syariah yang tidak tertulis pada bank konvensional adalah...",
+      "opsi": [
+        "Transfer uang",
+        "Menerima tabungan",
+        "Fungsi sosial (baitul maal dan penerima wakaf uang)",
+        "Memberi kredit"
+      ],
+      "jawaban": 2,
+      "jawaban_teks": "Fungsi sosial (baitul maal dan penerima wakaf uang)",
+      "penjelasan": "Tabel 4.1 buku mencantumkan fungsi sosial sebagai pembeda.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "lembaga-dan-digital",
+      "pertanyaan": "Siapa yang memastikan operasional bank syariah sesuai prinsip syariah?",
+      "opsi": [
+        "Dewan Pengawas Syariah (DPS)",
+        "Nasabah",
+        "Penjual",
+        "Kasir"
+      ],
+      "jawaban": 0,
+      "jawaban_teks": "Dewan Pengawas Syariah (DPS)",
+      "penjelasan": "DPS adalah struktur pengawas khas bank syariah.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "lembaga-dan-digital",
+      "pertanyaan": "Batas maksimal utang berbasis bunga pada perusahaan penerbit saham syariah adalah...",
+      "opsi": [
+        "10 persen dari total aset",
+        "90 persen dari total aset",
+        "45 persen dari total aset",
+        "Tidak ada batas"
+      ],
+      "jawaban": 2,
+      "jawaban_teks": "45 persen dari total aset",
+      "penjelasan": "Pendapatan non-halal juga dibatasi maksimal 10 persen dari total pendapatan.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "lembaga-dan-digital",
+      "pertanyaan": "Batas maksimal pendapatan non-halal perusahaan saham syariah adalah...",
+      "opsi": [
+        "10 persen dari total pendapatan",
+        "45 persen",
+        "50 persen",
+        "Tidak boleh ada sama sekali"
+      ],
+      "jawaban": 0,
+      "jawaban_teks": "10 persen dari total pendapatan",
+      "penjelasan": "Menurut Tabel 4.3 buku, batasnya 10 persen.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "lembaga-dan-digital",
+      "pertanyaan": "Manakah yang termasuk ciri pinjol ilegal menurut OJK?",
+      "opsi": [
+        "Punya kantor dan layanan pengaduan jelas",
+        "Penagihan sopan dan beretika",
+        "Terdaftar OJK dengan bunga jelas",
+        "Tidak terdaftar OJK dan meminta akses data pribadi"
+      ],
+      "jawaban": 3,
+      "jawaban_teks": "Tidak terdaftar OJK dan meminta akses data pribadi",
+      "penjelasan": "Ciri lain: bunga hingga 1-4 persen per hari dan penawaran lewat SMS atau WhatsApp.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "lembaga-dan-digital",
+      "pertanyaan": "Kontak OJK untuk mengecek legalitas pinjaman adalah...",
+      "opsi": [
+        "112",
+        "157",
+        "911",
+        "110"
+      ],
+      "jawaban": 1,
+      "jawaban_teks": "157",
+      "penjelasan": "Buku menyarankan cek legalitas lewat kontak OJK 157.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "lembaga-dan-digital",
+      "pertanyaan": "Urun dana (crowdfunding) syariah adalah...",
+      "opsi": [
+        "Pinjaman dengan bunga harian",
+        "Masyarakat bersama-sama mendanai proyek atau usaha dengan skema sesuai syariah",
+        "Undian berhadiah",
+        "Jual beli emas saja"
+      ],
+      "jawaban": 1,
+      "jawaban_teks": "Masyarakat bersama-sama mendanai proyek atau usaha dengan skema sesuai syariah",
+      "penjelasan": "Contoh di buku: penggalangan dana lewat platform seperti Kitabisa.com.",
+      "sumber_id": "S1"
+    },
+    {
+      "modul_slug": "tujuan-dan-perilaku",
+      "pertanyaan": "Lima hal pokok yang dijaga maqashid syariah adalah agama, jiwa, akal, keturunan, dan...",
+      "opsi": [
+        "Jabatan",
+        "Pendidikan",
+        "Kekuasaan",
+        "Harta"
+      ],
+      "jawaban": 3,
+      "jawaban_teks": "Harta",
+      "penjelasan": "Kelima pokok: agama, jiwa, akal, keturunan atau kehormatan, dan harta.",
+      "sumber_id": "S2"
+    },
+    {
+      "modul_slug": "tujuan-dan-perilaku",
+      "pertanyaan": "Tingkat kebutuhan yang bila diabaikan mengancam keberadaan lima hal pokok disebut...",
+      "opsi": [
+        "Dharuriyat",
+        "Hajiyat",
+        "Mubah",
+        "Tahsiniyat"
+      ],
+      "jawaban": 0,
+      "jawaban_teks": "Dharuriyat",
+      "penjelasan": "Dharuriyat adalah kebutuhan primer.",
+      "sumber_id": "S2"
+    },
+    {
+      "modul_slug": "tujuan-dan-perilaku",
+      "pertanyaan": "Menghindari penipuan dalam jual beli termasuk menjaga harta pada tingkat...",
+      "opsi": [
+        "Hajiyat",
+        "Tahsiniyat",
+        "Dharuriyat",
+        "Mubah"
+      ],
+      "jawaban": 1,
+      "jawaban_teks": "Tahsiniyat",
+      "penjelasan": "Menurut buku, menghindari penipuan adalah tingkat tahsiniyat.",
+      "sumber_id": "S2"
+    },
+    {
+      "modul_slug": "tujuan-dan-perilaku",
+      "pertanyaan": "Jual beli salam disebut contoh menjaga harta pada tingkat...",
+      "opsi": [
+        "Dharuriyat",
+        "Hajiyat",
+        "Tahsiniyat",
+        "Makruh"
+      ],
+      "jawaban": 1,
+      "jawaban_teks": "Hajiyat",
+      "penjelasan": "Salam adalah contoh tingkat hajiyat dalam menjaga harta.",
+      "sumber_id": "S2"
+    },
+    {
+      "modul_slug": "tujuan-dan-perilaku",
+      "pertanyaan": "Israf berarti...",
+      "opsi": [
+        "Menimbun barang agar harganya naik",
+        "Memberi harta secara sukarela",
+        "Meminjamkan harta tanpa tambahan",
+        "Berlebihan memakai harta melebihi ukuran yang patut, bahkan untuk diri sendiri"
+      ],
+      "jawaban": 3,
+      "jawaban_teks": "Berlebihan memakai harta melebihi ukuran yang patut, bahkan untuk diri sendiri",
+      "penjelasan": "Contoh: kendaraan atau rumah melebihi kebutuhan.",
+      "sumber_id": "S2"
+    },
+    {
+      "modul_slug": "tujuan-dan-perilaku",
+      "pertanyaan": "Menurut buku, tabdzir adalah...",
+      "opsi": [
+        "Menghambur-hamburkan harta untuk hal yang tidak diperlukan atau tidak bermanfaat",
+        "Menunda pembayaran zakat",
+        "Menjual barang tanpa margin",
+        "Menitipkan uang di bank"
+      ],
+      "jawaban": 0,
+      "jawaban_teks": "Menghambur-hamburkan harta untuk hal yang tidak diperlukan atau tidak bermanfaat",
+      "penjelasan": "Contoh: membeli motor balap mahal padahal bukan pembalap.",
+      "sumber_id": "S2"
+    },
+    {
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "pertanyaan": "Mulamasah dilarang karena...",
+      "opsi": [
+        "Harganya terlalu murah",
+        "Barang hanya disentuh tanpa diamati sehingga mengandung gharar",
+        "Dibayar secara tunai",
+        "Dilakukan pada siang hari"
+      ],
+      "jawaban": 1,
+      "jawaban_teks": "Barang hanya disentuh tanpa diamati sehingga mengandung gharar",
+      "penjelasan": "Barang tidak dinilai dengan jelas sebelum transaksi.",
+      "sumber_id": "S2"
+    },
+    {
+      "modul_slug": "mengenal-ekonomi-syariah",
+      "pertanyaan": "Memengaruhi orang agar bertransaksi dengan ucapan atau tindakan yang mengandung kebohongan disebut...",
+      "opsi": [
+        "Qardh",
+        "Rahn",
+        "Tabarru'",
+        "Taghrir"
+      ],
+      "jawaban": 3,
+      "jawaban_teks": "Taghrir",
+      "penjelasan": "Contoh di pasar modal: wash sale.",
+      "sumber_id": "S2"
+    },
+    {
+      "modul_slug": "tujuan-dan-perilaku",
+      "pertanyaan": "Pasar Madinah berkembang antara lain karena Nabi menekankan...",
+      "opsi": [
+        "Kejujuran dalam jual beli",
+        "Harga yang selalu murah",
+        "Larangan berdagang",
+        "Pajak yang tinggi"
+      ],
+      "jawaban": 0,
+      "jawaban_teks": "Kejujuran dalam jual beli",
+      "penjelasan": "Nabi juga menugaskan pengawas pasar.",
+      "sumber_id": "S2"
+    },
+    {
+      "modul_slug": "regulasi-dan-lembaga",
+      "pertanyaan": "Undang-undang pengelolaan zakat di Indonesia adalah UU No...",
+      "opsi": [
+        "21 Tahun 2008",
+        "41 Tahun 2004",
+        "23 Tahun 2011",
+        "19 Tahun 2008"
+      ],
+      "jawaban": 2,
+      "jawaban_teks": "23 Tahun 2011",
+      "penjelasan": "UU 23/2011 menggantikan UU 38/1999.",
+      "sumber_id": "S10"
+    },
+    {
+      "modul_slug": "regulasi-dan-lembaga",
+      "pertanyaan": "UU No. 41 Tahun 2004 mengatur tentang...",
+      "opsi": [
+        "Perbankan syariah",
+        "Wakaf",
+        "Zakat",
+        "Sukuk negara"
+      ],
+      "jawaban": 1,
+      "jawaban_teks": "Wakaf",
+      "penjelasan": "UU ini memperluas objek wakaf ke benda bergerak seperti uang dan saham.",
+      "sumber_id": "S10"
+    },
+    {
+      "modul_slug": "regulasi-dan-lembaga",
+      "pertanyaan": "UU No. 19 Tahun 2008 mengatur tentang...",
+      "opsi": [
+        "Bank Indonesia",
+        "Lembaga penjamin simpanan",
+        "Surat Berharga Syariah Negara (sukuk negara)",
+        "Jaminan produk halal"
+      ],
+      "jawaban": 2,
+      "jawaban_teks": "Surat Berharga Syariah Negara (sukuk negara)",
+      "penjelasan": "SBSN adalah alternatif sumber pembiayaan negara.",
+      "sumber_id": "S10"
+    },
+    {
+      "modul_slug": "regulasi-dan-lembaga",
+      "pertanyaan": "Perbankan syariah diatur secara khusus oleh UU No...",
+      "opsi": [
+        "7 Tahun 1992",
+        "33 Tahun 2014",
+        "23 Tahun 2011",
+        "21 Tahun 2008"
+      ],
+      "jawaban": 3,
+      "jawaban_teks": "21 Tahun 2008",
+      "penjelasan": "Sebelumnya hanya diatur sepintas lewat UU 7/1992 dan UU 10/1998.",
+      "sumber_id": "S10"
+    },
+    {
+      "modul_slug": "regulasi-dan-lembaga",
+      "pertanyaan": "Lembaga di bawah MUI yang mengeluarkan fatwa untuk keuangan syariah adalah...",
+      "opsi": [
+        "LPS",
+        "BPJPH",
+        "DSN-MUI",
+        "BAZNAS"
+      ],
+      "jawaban": 2,
+      "jawaban_teks": "DSN-MUI",
+      "penjelasan": "DSN dibentuk MUI tahun 1998 dan dikukuhkan 1999.",
+      "sumber_id": "S2"
+    },
+    {
+      "modul_slug": "regulasi-dan-lembaga",
+      "pertanyaan": "Bank Muamalat mulai beroperasi pada tahun...",
+      "opsi": [
+        "1998",
+        "1992",
+        "2008",
+        "1982"
+      ],
+      "jawaban": 1,
+      "jawaban_teks": "1992",
+      "penjelasan": "Mulai beroperasi 1 Mei 1992.",
+      "sumber_id": "S5"
+    },
+    {
+      "modul_slug": "regulasi-dan-lembaga",
+      "pertanyaan": "Sistem perbankan ganda (konvensional dan syariah) ditegaskan lewat UU No...",
+      "opsi": [
+        "41 Tahun 2004",
+        "7 Tahun 1992",
+        "10 Tahun 1998",
+        "21 Tahun 2008"
+      ],
+      "jawaban": 2,
+      "jawaban_teks": "10 Tahun 1998",
+      "penjelasan": "UU 10/1998 mengakui dual banking system.",
+      "sumber_id": "S5"
+    },
+    {
+      "modul_slug": "regulasi-dan-lembaga",
+      "pertanyaan": "Menurut UU 23/2011 Pasal 22, zakat yang dibayar lewat BAZNAS atau LAZ dapat...",
+      "opsi": [
+        "Dibayar tanpa nisab",
+        "Dipakai untuk modal usaha pribadi",
+        "Menggantikan semua pajak",
+        "Dikurangkan dari penghasilan dalam perhitungan pajak"
+      ],
+      "jawaban": 3,
+      "jawaban_teks": "Dikurangkan dari penghasilan dalam perhitungan pajak",
+      "penjelasan": "Zakat dan pajak berbeda tetapi dapat saling terkait dalam perhitungan.",
+      "sumber_id": "S10"
+    },
+    {
+      "modul_slug": "fintech-dan-digital",
+      "pertanyaan": "Fatwa DSN-MUI yang mengatur uang elektronik syariah adalah No...",
+      "opsi": [
+        "140/DSN-MUI/VIII/2021",
+        "04/DSN-MUI/IV/2000",
+        "116/DSN-MUI/IX/2017",
+        "117/DSN-MUI/II/2018"
+      ],
+      "jawaban": 2,
+      "jawaban_teks": "116/DSN-MUI/IX/2017",
+      "penjelasan": "Cek nomor ke dokumen aslinya.",
+      "sumber_id": "S4"
+    },
+    {
+      "modul_slug": "fintech-dan-digital",
+      "pertanyaan": "Fatwa No. 117/DSN-MUI/II/2018 mengatur tentang...",
+      "opsi": [
+        "Gadai syariah",
+        "Layanan pembiayaan berbasis teknologi informasi sesuai prinsip syariah",
+        "Jual beli emas tidak tunai",
+        "Wakaf uang"
+      ],
+      "jawaban": 1,
+      "jawaban_teks": "Layanan pembiayaan berbasis teknologi informasi sesuai prinsip syariah",
+      "penjelasan": "Fatwa ini menjadi payung bagi fintech pembiayaan syariah.",
+      "sumber_id": "S4"
+    },
+    {
+      "modul_slug": "fintech-dan-digital",
+      "pertanyaan": "Crowdfunding donasi sosial paling cocok memakai akad...",
+      "opsi": [
+        "Salam",
+        "Ijarah",
+        "Tabarru'",
+        "Murabahah"
+      ],
+      "jawaban": 2,
+      "jawaban_teks": "Tabarru'",
+      "penjelasan": "Tabarru' adalah pemberian sukarela tanpa imbalan.",
+      "sumber_id": "S4"
+    },
+    {
+      "modul_slug": "fintech-dan-digital",
+      "pertanyaan": "Crowdfunding investasi usaha lazimnya memakai akad...",
+      "opsi": [
+        "Salam atau istishna",
+        "Mudharabah atau musyarakah",
+        "Rahn atau kafalah",
+        "Wadiah atau qardh"
+      ],
+      "jawaban": 1,
+      "jawaban_teks": "Mudharabah atau musyarakah",
+      "penjelasan": "Keduanya akad bagi hasil.",
+      "sumber_id": "S4"
+    },
+    {
+      "modul_slug": "fintech-dan-digital",
+      "pertanyaan": "Agar tidak gharar, biaya jasa platform urun dana sebaiknya...",
+      "opsi": [
+        "Ditentukan sepihak oleh platform",
+        "Ditetapkan jelas nominalnya sejak awal",
+        "Diketahui setelah kampanye selesai",
+        "Dihitung dari persentase yang berubah-ubah"
+      ],
+      "jawaban": 1,
+      "jawaban_teks": "Ditetapkan jelas nominalnya sejak awal",
+      "penjelasan": "Kejelasan biaya adalah syarat akad jasa.",
+      "sumber_id": "S4"
+    },
+    {
+      "modul_slug": "fintech-dan-digital",
+      "pertanyaan": "Salah satu akad yang dapat dipakai pada P2P lending syariah adalah...",
+      "opsi": [
+        "Maysir",
+        "Najsy",
+        "Riba nasiah",
+        "Wakalah bil ujrah"
+      ],
+      "jawaban": 3,
+      "jawaban_teks": "Wakalah bil ujrah",
+      "penjelasan": "Enam akad: ba'i, ijarah, mudharabah, musyarakah, wakalah bil ujrah, qardh.",
+      "sumber_id": "S4"
+    },
+    {
+      "modul_slug": "fintech-dan-digital",
+      "pertanyaan": "Jika terjadi sengketa pada P2P lending syariah, langkah pertama menurut fatwa adalah...",
+      "opsi": [
+        "Mengumumkan data peminjam",
+        "Langsung menahan barang",
+        "Menaikkan denda",
+        "Musyawarah mufakat"
+      ],
+      "jawaban": 3,
+      "jawaban_teks": "Musyawarah mufakat",
+      "penjelasan": "Bila gagal, dibawa ke lembaga penyelesaian sengketa syariah seperti BASYARNAS.",
+      "sumber_id": "S4"
+    },
+    {
+      "modul_slug": "fintech-dan-digital",
+      "pertanyaan": "Uang elektronik registered berarti...",
+      "opsi": [
+        "Hanya untuk mata uang asing",
+        "Saldonya tidak bisa dipakai",
+        "Identitas pemegangnya terdaftar dan tercatat di penerbit",
+        "Tidak punya penerbit"
+      ],
+      "jawaban": 2,
+      "jawaban_teks": "Identitas pemegangnya terdaftar dan tercatat di penerbit",
+      "penjelasan": "Unregistered berarti identitas tidak tercatat.",
+      "sumber_id": "S4"
+    },
+    {
+      "modul_slug": "fintech-dan-digital",
+      "pertanyaan": "Empat fungsi uang: satuan nilai, alat tukar, penyimpan nilai, dan...",
+      "opsi": [
+        "Alat taruhan",
+        "Pengganti akad",
+        "Pengganti zakat",
+        "Alat pembayaran tunda"
+      ],
+      "jawaban": 3,
+      "jawaban_teks": "Alat pembayaran tunda",
+      "penjelasan": "Misalnya jual beli dengan pembayaran di kemudian hari.",
+      "sumber_id": "S4"
+    },
+    {
+      "modul_slug": "literasi-dan-inklusi",
+      "pertanyaan": "Menurut artikel yang mengutip SNLIK OJK 2025, inklusi keuangan syariah sebesar...",
+      "opsi": [
+        "28,01 persen",
+        "43,42 persen",
+        "13,41 persen",
+        "75,02 persen"
+      ],
+      "jawaban": 2,
+      "jawaban_teks": "13,41 persen",
+      "penjelasan": "Literasi syariah 43,42 persen; inklusi konvensional 75,02 persen.",
+      "sumber_id": "S6"
+    },
+    {
+      "modul_slug": "literasi-dan-inklusi",
+      "pertanyaan": "Inklusi keuangan berarti...",
+      "opsi": [
+        "Hanya orang kaya yang memakai bank",
+        "Setiap orang punya akses ke layanan keuangan yang bermutu, terjangkau, dan aman",
+        "Semua orang memiliki utang",
+        "Semua orang hafal istilah Arab"
+      ],
+      "jawaban": 1,
+      "jawaban_teks": "Setiap orang punya akses ke layanan keuangan yang bermutu, terjangkau, dan aman",
+      "penjelasan": "Definisi mengacu Perpres 82/2016.",
+      "sumber_id": "S6"
+    },
+    {
+      "modul_slug": "literasi-dan-inklusi",
+      "pertanyaan": "Literasi 43,42 persen dan inklusi 13,41 persen menunjukkan bahwa...",
+      "opsi": [
+        "Banyak orang tahu tentang keuangan syariah tetapi belum menggunakannya",
+        "Semua orang sudah memakai produk syariah",
+        "Inklusi lebih tinggi dari literasi",
+        "Literasi tidak berpengaruh"
+      ],
+      "jawaban": 0,
+      "jawaban_teks": "Banyak orang tahu tentang keuangan syariah tetapi belum menggunakannya",
+      "penjelasan": "Ada kesenjangan antara pengetahuan dan penggunaan.",
+      "sumber_id": "S6"
+    },
+    {
+      "modul_slug": "literasi-dan-inklusi",
+      "pertanyaan": "Pada gadai emas syariah, jasa pemeliharaan dan penyimpanan barang memakai akad...",
+      "opsi": [
+        "Ijarah",
+        "Hibah",
+        "Salam",
+        "Mudharabah"
+      ],
+      "jawaban": 0,
+      "jawaban_teks": "Ijarah",
+      "penjelasan": "Qardh untuk pinjaman, rahn untuk jaminan, ijarah untuk jasa penyimpanan.",
+      "sumber_id": "S7"
+    },
+    {
+      "modul_slug": "literasi-dan-inklusi",
+      "pertanyaan": "Orang yang menggadaikan barang disebut...",
+      "opsi": [
+        "Murtahin",
+        "Nazhir",
+        "Mudharib",
+        "Rahin"
+      ],
+      "jawaban": 3,
+      "jawaban_teks": "Rahin",
+      "penjelasan": "Murtahin adalah penerima gadai.",
+      "sumber_id": "S7"
+    },
+    {
+      "modul_slug": "literasi-dan-inklusi",
+      "pertanyaan": "Jika hasil lelang barang gadai melebihi utang, kelebihannya menjadi hak...",
+      "opsi": [
+        "Murtahin",
+        "Negara",
+        "Nazhir",
+        "Rahin (pemilik barang)"
+      ],
+      "jawaban": 3,
+      "jawaban_teks": "Rahin (pemilik barang)",
+      "penjelasan": "Kekurangan tetap harus dilunasi rahin.",
+      "sumber_id": "S7"
+    },
+    {
+      "modul_slug": "literasi-dan-inklusi",
+      "pertanyaan": "Pada cicil emas syariah, emas yang dibeli dengan angsuran...",
+      "opsi": [
+        "Boleh langsung dijual",
+        "Menjadi milik penjual selamanya",
+        "Ditahan sebagai jaminan sampai lunas",
+        "Dihargai ulang tiap bulan"
+      ],
+      "jawaban": 2,
+      "jawaban_teks": "Ditahan sebagai jaminan sampai lunas",
+      "penjelasan": "Disebut murabahah dengan rahn.",
+      "sumber_id": "S7"
+    },
+    {
+      "modul_slug": "literasi-dan-inklusi",
+      "pertanyaan": "Harga jual pada akad murabahah emas...",
+      "opsi": [
+        "Tidak boleh berubah selama akad berjalan",
+        "Boleh naik jika emas mahal",
+        "Boleh naik jika terlambat bayar",
+        "Ditentukan oleh penagih"
+      ],
+      "jawaban": 0,
+      "jawaban_teks": "Tidak boleh berubah selama akad berjalan",
+      "penjelasan": "Harga dan margin disepakati di awal.",
+      "sumber_id": "S7"
+    },
+    {
+      "modul_slug": "bagi-hasil-praktik",
+      "pertanyaan": "Bagi hasil disebut risk sharing karena...",
+      "opsi": [
+        "Tidak ada risiko sama sekali",
+        "Kedua pihak berbagi untung dan risiko usaha",
+        "Peminjam menanggung semua risiko",
+        "Pemberi dana pasti untung tetap"
+      ],
+      "jawaban": 1,
+      "jawaban_teks": "Kedua pihak berbagi untung dan risiko usaha",
+      "penjelasan": "Pada bunga, risiko dipindahkan ke peminjam.",
+      "sumber_id": "S9"
+    },
+    {
+      "modul_slug": "bagi-hasil-praktik",
+      "pertanyaan": "Peminjam tetap membayar bunga walau usaha rugi. Ini ciri sistem...",
+      "opsi": [
+        "Risk sharing",
+        "Wakalah",
+        "Tabarru'",
+        "Risk transfer"
+      ],
+      "jawaban": 3,
+      "jawaban_teks": "Risk transfer",
+      "penjelasan": "Bunga memindahkan risiko ke peminjam.",
+      "sumber_id": "S9"
+    },
+    {
+      "modul_slug": "bagi-hasil-praktik",
+      "pertanyaan": "Salah satu alasan lembaga lebih suka murabahah daripada bagi hasil adalah...",
+      "opsi": [
+        "Pembayaran lebih pasti dan lebih mudah diawasi",
+        "Murabahah tanpa akad",
+        "Bagi hasil tidak pernah untung",
+        "Murabahah dilarang"
+      ],
+      "jawaban": 0,
+      "jawaban_teks": "Pembayaran lebih pasti dan lebih mudah diawasi",
+      "penjelasan": "Bagi hasil perlu penilaian usaha dan verifikasi laporan.",
+      "sumber_id": "S9"
+    },
+    {
+      "modul_slug": "bagi-hasil-praktik",
+      "pertanyaan": "Moral hazard pada mudharabah berarti...",
+      "opsi": [
+        "Bunga naik otomatis",
+        "Barang jaminan hilang",
+        "Pengelola berpeluang melaporkan untung lebih kecil dari kenyataan",
+        "Pemilik dana ikut bekerja"
+      ],
+      "jawaban": 2,
+      "jawaban_teks": "Pengelola berpeluang melaporkan untung lebih kecil dari kenyataan",
+      "penjelasan": "Perlu pembukuan dan pengawasan yang baik.",
+      "sumber_id": "S9"
+    },
+    {
+      "modul_slug": "bagi-hasil-praktik",
+      "pertanyaan": "Cara kritis menilai produk berlabel syariah adalah memeriksa...",
+      "opsi": [
+        "Akad, kejelasan biaya dan margin, serta pengawas syariah",
+        "Nama produk berbahasa Arab",
+        "Warna logo hijau",
+        "Banyaknya iklan"
+      ],
+      "jawaban": 0,
+      "jawaban_teks": "Akad, kejelasan biaya dan margin, serta pengawas syariah",
+      "penjelasan": "Label saja belum cukup.",
+      "sumber_id": "S4"
+    },
+    {
+      "modul_slug": "nilai-dan-prinsip",
+      "pertanyaan": "Masalah dasar ekonomi: keinginan nyaris tanpa batas sementara sumber daya...",
+      "opsi": [
+        "Terbatas",
+        "Selalu berlebih",
+        "Tak terbatas",
+        "Dimiliki satu orang"
+      ],
+      "jawaban": 0,
+      "jawaban_teks": "Terbatas",
+      "penjelasan": "Karena itu manusia perlu memilih dan mengelola dengan bijak.",
+      "sumber_id": "S11"
+    }
+  ],
+  "skenario_akad": [
+    {
+      "cerita": "Sari punya uang tapi tidak punya waktu. Budi pandai membuat kopi tapi tidak punya modal. Mereka bekerja sama dan berbagi untung sesuai kesepakatan.",
+      "opsi": [
+        "Murabahah",
+        "Qardh",
+        "Mudharabah",
+        "Wadiah"
+      ],
+      "akad_benar": "Mudharabah",
+      "jawaban": 2,
+      "penjelasan": "Satu pihak menyediakan modal, pihak lain mengelola usaha, untung dibagi sesuai nisbah.",
+      "sumber_id": "S1"
+    },
+    {
+      "cerita": "Dua sahabat patungan modal untuk membuka toko, dan keduanya ikut mengelolanya.",
+      "opsi": [
+        "Musyarakah",
+        "Wadiah",
+        "Salam",
+        "Ijarah"
+      ],
+      "akad_benar": "Musyarakah",
+      "jawaban": 0,
+      "penjelasan": "Semua mitra menyertakan modal dan sama-sama menjalankan usaha.",
+      "sumber_id": "S1"
+    },
+    {
+      "cerita": "Rina ingin membeli motor. Lembaga keuangan membelinya lebih dulu, lalu menjualnya ke Rina dengan harga pokok plus margin yang disepakati, dicicil tetap.",
+      "opsi": [
+        "Ijarah",
+        "Qardh",
+        "Mudharabah",
+        "Murabahah"
+      ],
+      "akad_benar": "Murabahah",
+      "jawaban": 3,
+      "penjelasan": "Jual beli dengan harga pokok plus margin yang diketahui sejak awal.",
+      "sumber_id": "S1"
+    },
+    {
+      "cerita": "Pak Dodi memesan lemari sesuai desainnya kepada pengrajin. Pembayaran bisa bertahap.",
+      "opsi": [
+        "Wadiah",
+        "Istishna",
+        "Musyarakah",
+        "Qardh"
+      ],
+      "akad_benar": "Istishna",
+      "jawaban": 1,
+      "penjelasan": "Barang perlu diproduksi dulu sesuai spesifikasi.",
+      "sumber_id": "S1"
+    },
+    {
+      "cerita": "Bu Sinta menitipkan uangnya ke bank supaya aman dan bisa diambil kapan saja.",
+      "opsi": [
+        "Wadiah",
+        "Istishna",
+        "Musyarakah",
+        "Murabahah"
+      ],
+      "akad_benar": "Wadiah",
+      "jawaban": 0,
+      "penjelasan": "Uang dititipkan untuk dijaga dan dapat diambil sewaktu-waktu.",
+      "sumber_id": "S1"
+    },
+    {
+      "cerita": "Usaha fotokopi menyewa mesin setiap bulan dengan biaya sewa tetap.",
+      "opsi": [
+        "Salam",
+        "Ijarah",
+        "Mudharabah",
+        "Qardh"
+      ],
+      "akad_benar": "Ijarah",
+      "jawaban": 1,
+      "penjelasan": "Yang berpindah hanya manfaat barang, dengan imbalan upah sewa.",
+      "sumber_id": "S1"
+    },
+    {
+      "cerita": "Teman butuh Rp 500 ribu untuk biaya sekolah. Kamu meminjamkannya tanpa syarat tambahan.",
+      "opsi": [
+        "Qardh",
+        "Ijarah",
+        "Mudharabah",
+        "Murabahah"
+      ],
+      "akad_benar": "Qardh",
+      "jawaban": 0,
+      "penjelasan": "Pinjaman kebaikan: kembali sebesar pokok, tambahan hanya sukarela.",
+      "sumber_id": "S1"
+    },
+    {
+      "cerita": "Seorang petani butuh modal sebelum panen. Pembeli membayar penuh di muka untuk beras dengan kriteria jelas yang dikirim setelah panen.",
+      "opsi": [
+        "Wadiah",
+        "Ijarah",
+        "Salam",
+        "Istishna"
+      ],
+      "akad_benar": "Salam",
+      "jawaban": 2,
+      "penjelasan": "Salam: pesan barang yang sifatnya jelas dengan pembayaran di awal.",
+      "sumber_id": "S1"
+    },
+    {
+      "cerita": "Toko bahan bangunan menjual semen dan memberi tahu pembeli harga pokok serta margin keuntungannya.",
+      "opsi": [
+        "Mudharabah",
+        "Salam",
+        "Qardh",
+        "Murabahah"
+      ],
+      "akad_benar": "Murabahah",
+      "jawaban": 3,
+      "penjelasan": "Transparan soal harga pokok dan margin adalah ciri murabahah.",
+      "sumber_id": "S1"
+    },
+    {
+      "cerita": "Mahasiswa menyewa kamar kos per bulan dengan harga yang disepakati.",
+      "opsi": [
+        "Musyarakah",
+        "Istishna",
+        "Ijarah",
+        "Wadiah"
+      ],
+      "akad_benar": "Ijarah",
+      "jawaban": 2,
+      "penjelasan": "Yang dipakai adalah manfaat kamar, kepemilikan tetap pada pemilik kos.",
+      "sumber_id": "S1"
+    },
+    {
+      "cerita": "Dewi butuh dana cepat. Ia menyerahkan emasnya ke lembaga sebagai jaminan dan membayar biaya penyimpanan.",
+      "opsi": [
+        "Murabahah",
+        "Musyarakah",
+        "Salam",
+        "Rahn"
+      ],
+      "akad_benar": "Rahn",
+      "jawaban": 3,
+      "penjelasan": "Rahn adalah penahanan barang jaminan; pinjamannya memakai qardh dan jasa penyimpanan memakai ijarah.",
+      "sumber_id": "S7"
+    },
+    {
+      "cerita": "Sebuah platform menggalang dana untuk korban bencana. Donatur memberi tanpa mengharapkan imbalan.",
+      "opsi": [
+        "Ijarah",
+        "Tabarru'",
+        "Mudharabah",
+        "Murabahah"
+      ],
+      "akad_benar": "Tabarru'",
+      "jawaban": 1,
+      "penjelasan": "Tabarru' adalah pemberian sukarela tanpa imbalan.",
+      "sumber_id": "S4"
+    },
+    {
+      "cerita": "Platform urun dana bertindak sebagai wakil donatur dan meminta biaya jasa nominal tetap yang disepakati di awal.",
+      "opsi": [
+        "Wakalah bil ujrah",
+        "Wadiah",
+        "Qardh",
+        "Istishna"
+      ],
+      "akad_benar": "Wakalah bil ujrah",
+      "jawaban": 0,
+      "penjelasan": "Perwakilan dengan upah jasa yang jelas sejak awal.",
+      "sumber_id": "S4"
+    },
+    {
+      "cerita": "Andi membeli emas batangan dengan angsuran. Emas ditahan lembaga sebagai jaminan sampai lunas, dengan harga pokok plus margin yang disepakati.",
+      "opsi": [
+        "Qardh",
+        "Murabahah",
+        "Salam",
+        "Wadiah"
+      ],
+      "akad_benar": "Murabahah",
+      "jawaban": 1,
+      "penjelasan": "Murabahah untuk jual belinya, rahn untuk penahanan emas.",
+      "sumber_id": "S7"
+    }
+  ]
+}
