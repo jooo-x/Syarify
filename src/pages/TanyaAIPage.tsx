@@ -72,6 +72,112 @@ function extractKeywords(query: string): string[] {
   return keywords.length > 0 ? keywords : words.filter((w) => w.length > 1);
 }
 
+function buildAiContext(results: SearchResult[]): string {
+  return results
+    .slice(0, 4)
+    .map((result) => {
+      const kind = result.type === 'istilah' ? 'Istilah' : 'Materi';
+      return `- ${kind}: ${result.label}\n${result.text}`;
+    })
+    .join('\n\n');
+}
+
+function getAiProvider(): 'openai' | 'gemini' | null {
+  const provider = (import.meta.env.VITE_AI_PROVIDER ?? '').toLowerCase();
+  const hasOpenAI = Boolean(import.meta.env.VITE_OPENAI_API_KEY);
+  const hasGemini = Boolean(import.meta.env.VITE_GEMINI_API_KEY);
+
+  if (provider === 'gemini' && hasGemini) return 'gemini';
+  if (provider === 'openai' && hasOpenAI) return 'openai';
+  if (hasOpenAI) return 'openai';
+  if (hasGemini) return 'gemini';
+  return null;
+}
+
+async function generateAiReply(question: string, contextResults: SearchResult[]): Promise<string | null> {
+  const provider = getAiProvider();
+  if (!provider) return null;
+
+  const context = buildAiContext(contextResults);
+  const prompt = `Kamu adalah asisten edukasi ekonomi syariah yang menjawab dalam bahasa Indonesia. Jawab dengan sederhana, jelas, dan akurat. Gunakan hanya konteks berikut sebagai sumber. Jika konteks tidak cukup, katakan bahwa informasi yang tersedia belum cukup.
+
+Pertanyaan: ${question}
+
+Konteks:
+${context}`;
+
+  if (provider === 'openai') {
+    const apiKey = import.meta.env.VITE_OPENAI_API_KEY;
+    if (!apiKey) return null;
+
+    try {
+      const response = await fetch('https://api.openai.com/v1/chat/completions', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${apiKey}`,
+        },
+        body: JSON.stringify({
+          model: 'gpt-4o-mini',
+          temperature: 0.2,
+          max_tokens: 250,
+          messages: [
+            {
+              role: 'system',
+              content: 'Jawab dalam bahasa Indonesia dan fokus pada konsep ekonomi syariah. Hindari fatwa dan jangan membuat klaim yang tidak didukung konteks.',
+            },
+            {
+              role: 'user',
+              content: prompt,
+            },
+          ],
+        }),
+      });
+
+      if (!response.ok) return null;
+
+      const data = await response.json();
+      return data.choices?.[0]?.message?.content?.trim() ?? null;
+    } catch {
+      return null;
+    }
+  }
+
+  const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
+  if (!apiKey) return null;
+
+  try {
+    const response = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`,
+      {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          contents: [{ parts: [{ text: prompt }] }],
+          generationConfig: {
+            temperature: 0.2,
+            maxOutputTokens: 250,
+          },
+        }),
+      }
+    );
+
+    if (!response.ok) return null;
+
+    const data = await response.json();
+    const text = data.candidates?.[0]?.content?.parts
+      ?.map((part: { text?: string }) => part.text ?? '')
+      .join('')
+      .trim();
+
+    return text || null;
+  } catch {
+    return null;
+  }
+}
+
 export function TanyaAIPage() {
   const { navigate } = useRouter();
   const { data: moduls, loading: modulLoading } = useModuls();
@@ -99,6 +205,7 @@ export function TanyaAIPage() {
       judul: string; isi: string; slug: string; materiIndex: number;
       halamanBuku: string; sumberId: string; text: string;
     }> = [];
+
     for (const modul of moduls) {
       for (let mi = 0; mi < modul.materi.length; mi++) {
         const mat = modul.materi[mi];
@@ -113,6 +220,7 @@ export function TanyaAIPage() {
         });
       }
     }
+
     return { istilahEntries, materiEntries };
   }, [moduls, istilah]);
 
@@ -128,7 +236,6 @@ export function TanyaAIPage() {
 
     const results: SearchResult[] = [];
 
-    // Score istilah
     for (const e of searchIndex.istilahEntries) {
       let score = 0;
       for (const kw of keywords) {
@@ -147,7 +254,6 @@ export function TanyaAIPage() {
       }
     }
 
-    // Score materi
     for (const e of searchIndex.materiEntries) {
       let score = 0;
       for (const kw of keywords) {
@@ -178,17 +284,16 @@ export function TanyaAIPage() {
       };
     }
 
-    // Build short answer from top result
     let answer = '';
     if (top[0].type === 'istilah') {
-      const ist = searchIndex.istilahEntries.find(e => e.istilah === top[0].label);
+      const ist = searchIndex.istilahEntries.find((e) => e.istilah === top[0].label);
       if (ist) {
         answer = `${ist.istilah}`;
         if (ist.arab) answer += ` (${ist.arab})`;
         answer += ` — ${ist.arti}`;
       }
     } else {
-      const mat = searchIndex.materiEntries.find(e => e.judul === top[0].label);
+      const mat = searchIndex.materiEntries.find((e) => e.judul === top[0].label);
       if (mat) {
         const sentences = mat.isi.split(/(?<=[.!?])\s+/).slice(0, 2).join(' ');
         answer = sentences;
@@ -207,9 +312,20 @@ export function TanyaAIPage() {
     setThinking(true);
 
     setTimeout(() => {
-      const reply = search(q);
-      setMessages((prev) => [...prev, reply]);
-      setThinking(false);
+      void (async () => {
+        const localReply = search(q);
+        let reply = localReply;
+
+        if (localReply.results && localReply.results.length > 0) {
+          const aiText = await generateAiReply(q, localReply.results);
+          if (aiText) {
+            reply = { ...localReply, text: aiText };
+          }
+        }
+
+        setMessages((prev) => [...prev, reply]);
+        setThinking(false);
+      })();
     }, 300 + Math.random() * 400);
   }
 
@@ -246,11 +362,13 @@ export function TanyaAIPage() {
 
         {messages.map((msg, i) => (
           <div key={i} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
-            <div className={`max-w-[85%] rounded-xl2 px-4 py-3 text-sm leading-relaxed ${
-              msg.role === 'user'
-                ? 'bg-primary-600 text-white rounded-br-md'
-                : 'bg-primary-50/80 text-ink rounded-bl-md'
-            }`}>
+            <div
+              className={`max-w-[85%] rounded-xl2 px-4 py-3 text-sm leading-relaxed ${
+                msg.role === 'user'
+                  ? 'bg-primary-600 text-white rounded-br-md'
+                  : 'bg-primary-50/80 text-ink rounded-bl-md'
+              }`}
+            >
               {msg.role === 'ai' && (
                 <div className="flex items-center gap-1.5 mb-1.5">
                   <Search className="w-3.5 h-3.5 text-primary-600" aria-hidden="true" />
@@ -258,6 +376,7 @@ export function TanyaAIPage() {
                 </div>
               )}
               <p className="whitespace-pre-line">{msg.text}</p>
+
               {msg.results && msg.results.length > 0 && (
                 <div className="mt-3 pt-2 border-t border-primary-100 space-y-1.5">
                   <p className="text-[10px] font-semibold text-gray-400 uppercase tracking-wider">Sumber rujukan</p>
@@ -274,6 +393,7 @@ export function TanyaAIPage() {
                           <span className="text-[9px] text-gray-400 shrink-0">{src.sumberLabel}</span>
                         )}
                       </div>
+
                       {src.type === 'materi' && src.slug && (
                         <button
                           onClick={() => navigate({ name: 'materi', slug: src.slug!, materiIndex: src.materiIndex ?? 0 })}
@@ -325,7 +445,10 @@ export function TanyaAIPage() {
       )}
 
       <form
-        onSubmit={(e) => { e.preventDefault(); handleSend(); }}
+        onSubmit={(e) => {
+          e.preventDefault();
+          handleSend();
+        }}
         className="relative"
       >
         <input
@@ -340,7 +463,7 @@ export function TanyaAIPage() {
         <button
           type="submit"
           disabled={!input.trim() || thinking || loading}
-          className="absolute right-2 top-1/2 -translate-y-1/2 w-9 h-9 rounded-lg bg-primary-600 text-white flex items-center justify-center disabled:opacity-40 hover:bg-primary-700 transition-colors active:scale-90"
+          className="absolute right-2 top-1/2 -translate-y-1/2 w-9 h-9 rounded-lg bg-primary-600 text-white flex items-center justify-center disabled:opacity-40 hover:bg-primary-700 transition-colors"
           aria-label="Kirim pertanyaan"
         >
           <Send className="w-4 h-4" aria-hidden="true" />
