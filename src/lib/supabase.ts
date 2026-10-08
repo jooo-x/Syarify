@@ -1,9 +1,7 @@
 import { createClient } from '@supabase/supabase-js';
 
-const supabaseUrl = 'https://supabase.co';
-const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
+// Memasukkan URL dan Anon Key langsung agar tidak bergantung pada GitHub Secrets
+const supabaseUrl = 'rthmihcwzamsbqvwoiox';
+const supabaseAnonKey = 'sb_publishable_V5gvTFWNo1vESEr65hnTqw_QoXLIqve';
 
-export const supabase = createClient(
-  supabaseUrl, 
-  supabaseAnonKey || 'placeholder-key'
-);
+export const supabase = createClient(supabaseUrl, supabaseAnonKey);
