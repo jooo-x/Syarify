@@ -5,7 +5,7 @@ export function TentangPage() {
     <div className="space-y-4 animate-fade-in">
       <div>
         <h1 className="text-xl md:text-2xl font-bold text-ink mb-1">Tentang aplikasi</h1>
-        <p className="text-sm text-gray-500">Kenali tujuan dan sumber Paham Syariah.</p>
+        <p className="text-sm text-gray-500">Kenali tujuan dan sumber Syarify.</p>
       </div>
 
       {/* Tujuan */}
@@ -15,7 +15,7 @@ export function TentangPage() {
           <h2 className="font-bold text-lg">Tujuan aplikasi</h2>
         </div>
         <p className="text-sm text-primary-100 leading-relaxed">
-          Paham Syariah membantu siapa saja dari berbagai usia dan agama untuk memahami ekonomi syariah
+          Paham Syariah membantu siapa saja dari berbagai kalangan untuk memahami ekonomi syariah
           dengan bahasa yang sederhana. Istilah yang terdengar rumit dijelaskan dengan contoh sehari-hari.
           Aplikasi ini cocok untuk pelajar, mahasiswa, dan masyarakat umum yang ingin
           tahu dasar-dasar ekonomi syariah di Indonesia.
@@ -73,7 +73,7 @@ export function TentangPage() {
         <div className="flex items-start gap-2">
           <Heart className="w-4 h-4 text-accent-500 shrink-0 mt-0.5" aria-hidden="true" />
           <p className="text-xs text-ink leading-relaxed">
-            Semua orang, dari berbagai jenjang usia dan agama dapat mencoba aplikasi ini dengan nyaman.
+            Semua orang, dari berbagai kalangan dapat mencoba aplikasi ini dengan nyaman.
             Mari belajar tanpa takut salah.
           </p>
         </div>
