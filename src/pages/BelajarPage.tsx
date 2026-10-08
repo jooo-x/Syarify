@@ -1,9 +1,9 @@
-import { ArrowLeft, ArrowRight, BookOpen, CheckCircle2, Circle, Volume2, HelpCircle, Loader2, AlertCircle } from 'lucide-react';
+import { ArrowLeft, ArrowRight, BookOpen, CheckCircle2, Circle, HelpCircle, Loader2, AlertCircle } from 'lucide-react';
 import { useRouter } from '@/context/RouterContext';
 import { useSettings } from '@/context/SettingsContext';
 import { useModuls, useModul, useProgress, useIstilah, getSumberLabel } from '@/hooks/useMateri';
 import { useMemo } from 'react';
-import { speak } from '@/utils/speech';
+import { SpeechButton } from '@/components/SpeechButton';
 
 export function BelajarPage() {
   const { navigate } = useRouter();
@@ -203,13 +203,7 @@ export function MateriPage({ slug, materiIndex }: { slug: string; materiIndex: n
             </span>
             <h1 className="text-lg md:text-xl font-bold text-ink mt-2 leading-snug">{materi.judul}</h1>
           </div>
-          <button
-            onClick={() => speak(materi.isi)}
-            className="w-10 h-10 rounded-xl bg-accent-100 text-accent-500 flex items-center justify-center shrink-0 hover:bg-accent-200 transition-colors active:scale-90"
-            aria-label="Bacakan materi ini"
-          >
-            <Volume2 className="w-5 h-5" aria-hidden="true" />
-          </button>
+          <SpeechButton text={materi.isi} label="Bacakan materi ini" />
         </div>
 
         {materi.perlu_verifikasi && (

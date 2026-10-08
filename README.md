@@ -1,4 +1,4 @@
-# Paham Syariah
+# syarify
 
 Aplikasi web untuk belajar ekonomi syariah dengan bahasa sederhana. Cocok untuk pelajar, mahasiswa, dan masyarakat umum.
 

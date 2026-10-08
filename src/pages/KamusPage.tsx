@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react';
-import { Search, Volume2, BookMarked, X, Loader2, AlertCircle, Filter, BookOpen } from 'lucide-react';
+import { Search, BookMarked, X, Loader2, AlertCircle, Filter, BookOpen } from 'lucide-react';
 import { useIstilah, useModuls, getSumberLabel } from '@/hooks/useMateri';
-import { speak } from '@/utils/speech';
+import { SpeechButton } from '@/components/SpeechButton';
 
 export function KamusPage() {
   const { data: istilah, loading, error } = useIstilah();
@@ -124,13 +124,10 @@ export function KamusPage() {
                     </div>
                   )}
                 </div>
-                <button
-                  onClick={() => speak(`${item.istilah}. ${item.arti}. ${item.contoh ? `Contoh. ${item.contoh}` : ''}`)}
-                  className="w-10 h-10 rounded-xl bg-accent-100 text-accent-500 flex items-center justify-center shrink-0 hover:bg-accent-200 transition-colors active:scale-90"
-                  aria-label={`Bacakan istilah ${item.istilah}`}
-                >
-                  <Volume2 className="w-5 h-5" aria-hidden="true" />
-                </button>
+                <SpeechButton
+                  text={`${item.istilah}. ${item.arti}. ${item.contoh ? `Contoh. ${item.contoh}` : ''}`}
+                  label={`Bacakan istilah ${item.istilah}`}
+                />
               </div>
             </div>
           );
