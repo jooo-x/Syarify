@@ -139,7 +139,7 @@ export function PengaturanPage() {
       {/* Info */}
       <section className="bg-primary-50 rounded-xl2 p-4 border border-primary-100">
         <p className="text-xs text-primary-700 leading-relaxed">
-          Pengaturan ini tersimpan di perangkatmu. Semua orang, dari berbagai usia dan agama, dapat menikmati
+          Pengaturan ini tersimpan di perangkatmu. Semua orang, dari berbagai kalangan dapat menikmati
           konten ini dengan nyaman.
         </p>
       </section>
